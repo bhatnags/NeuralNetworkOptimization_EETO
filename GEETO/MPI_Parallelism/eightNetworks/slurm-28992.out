@@ -1,0 +1,90 @@
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+2018-11-02 20:48:06.134362: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-11-02 20:48:06.197844: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-11-02 20:48:06.588819: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-11-02 20:48:06.775094: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-11-02 20:48:06.970099: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-11-02 20:48:07.017572: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-11-02 20:48:07.025979: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-11-02 20:48:07.052003: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+
+
+###############################################################################
+TCHPC Cluster: boyle
+Job 28992 (par) for User 'bhatnags' in Account 'mschpc'
+Finished at: Fri Nov  2 22:08:26 GMT 2018
+
+Job completion status:
+======================
+
+       JobID    JobName AllocCPUS NTasks NNodes     MaxRSS    MaxRSSNode  MaxDiskRead MaxDiskWrite    Elapsed      State ExitCode 
+------------ ---------- --------- ------ ------ ---------- ------------- ------------ ------------ ---------- ---------- -------- 
+28992               par        28             1                                                      01:20:26    RUNNING      0:0 
+28992.batch       batch        28      1      1      4872K    boyle-n028        0.01M            0   01:20:26  COMPLETED      0:0 
+28992.0      hydra_pmi+         1      1      1  27070956K    boyle-n028        0.11M        0.17M   01:20:26  COMPLETED      0:0 
+
+
+Job details:
+============
+
+JobId=28992 JobName=par
+   UserId=bhatnags(1460) GroupId=bhatnags(1106) MCS_label=N/A
+   Priority=907136 Nice=0 Account=mschpc QOS=normal
+   JobState=COMPLETING Reason=None Dependency=(null)
+   Requeue=0 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   DerivedExitCode=0:0
+   RunTime=01:20:26 TimeLimit=04:15:00 TimeMin=N/A
+   SubmitTime=2018-11-02T18:13:28 EligibleTime=2018-11-02T18:13:28
+   StartTime=2018-11-02T20:48:00 EndTime=2018-11-02T22:08:26 Deadline=N/A
+   PreemptTime=None SuspendTime=None SecsPreSuspend=0
+   Partition=compute AllocNode:Sid=boyle01:18019
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=
+   BatchHost=boyle-n028
+   NumNodes=1 NumCPUs=28 NumTasks=8 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   TRES=cpu=28,mem=63000M,node=1
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+     Nodes=boyle-n028 CPU_IDs=0-27 Mem=63000 GRES_IDX=
+   MinCPUsNode=1 MinMemoryNode=63000M MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   Gres=(null) Reservation=(null)
+   OverSubscribe=NO Contiguous=0 Licenses=(null) Network=(null)
+   Command=/home/users/mschpc/2017/bhatnags/revisited/ParallelGeneticsInspiredNeuralNetworkTuning/src/eight/bashscript.sh
+   WorkDir=/home/users/mschpc/2017/bhatnags/revisited/ParallelGeneticsInspiredNeuralNetworkTuning/src/eight
+   StdErr=/home/users/mschpc/2017/bhatnags/revisited/ParallelGeneticsInspiredNeuralNetworkTuning/src/eight/slurm-28992.out
+   StdIn=/dev/null
+   StdOut=/home/users/mschpc/2017/bhatnags/revisited/ParallelGeneticsInspiredNeuralNetworkTuning/src/eight/slurm-28992.out
+   Power=
+
+
+Disk quota details:
+===================
+
+Disk quotas for user bhatnags (uid 1460): none
+
+
+SLURM Bank Statement:
+=====================
+
+User           Usage |        Account     Usage | Account Limit Available (CPU hrs)
+---------- --------- + -------------- --------- + ------------- ---------
+bhatnags       4,996 |         MSCHPC     4,996 |             0       N/A
+
+
+Acknowledgements:
+=================
+
+Note that usage of TCHPC Resources *must* be acknowledged in all publications.
+
+Please see this page for details relevant to this cluster:
+
+http://www.tchpc.tcd.ie/resources/acknowledgementpolicy
+
+################################################################################

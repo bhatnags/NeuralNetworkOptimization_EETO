@@ -1,0 +1,1812 @@
+True
+False
+True
+False
+True
+False
+True
+False
+True
+False
+True
+False
+rank, data, dataPrev
+0 {'dropout': 0.3, 'optimizer': 'adagrad', 'activation': 'relu', 'nbLayers': 15, 'nbNeurons': 16} {'dropout': 0.2, 'optimizer': 'adagrad', 'activation': 'tanh', 'nbLayers': 3, 'nbNeurons': 8}
+rank, data, dataPrev
+1 {'dropout': 0.25, 'optimizer': 'nadam', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 32} {'dropout': 0.3, 'optimizer': 'adagrad', 'activation': 'relu', 'nbLayers': 15, 'nbNeurons': 16}
+rank, data, dataPrev
+4 {'dropout': 0.1, 'optimizer': 'sgd', 'activation': 'selu', 'nbLayers': 12, 'nbNeurons': 8} {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'tarank, data, dataPrev
+nh', 'nbLayers': 9, 'nbNeurons': 4}
+5 {'dropout': 0.2, 'optimizer': 'adagrad', 'activation': 'tanh', 'nbLayers': 3, 'nbNeurons': 8} {'dropout': 0.1, 'optimizer': 'sgd', 'activation': 'selu', 'nbLayers': 12, 'nbNeurons': 8}
+rank, data, dataPrev
+2 {'dropout': 0.25, 'rank, data, dataPrev
+3 {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'tanh', 'nbLayers': optimizer': 'adadelta', 'activation': 'tanh', 'nbLayers': 12, '9, 'nbNeurons': 4} {'dropout': 0.25, 'optimiznbNeurons': 4} {'dropout': 0.25er': 'adadelta', 'activation': 'tanh', 'nbLayers, 'optimizer': 'nadam', 'activation': 'elu', ': 12, 'nbNeurons': 4}
+'nbLayers': 1, 'nbNeurons': 32}
+bestandpoorest_1
+(4, 18.19)
+bestandpoorest_1
+(0, 16.0)
+bestandpoorest_1
+(3, 10.0)
+bestandpoorest_1
+(5, 18.19)
+bestandpoorest_1
+(2, 20.74)
+bestandpoorest_1
+(1, 41.99)
+3 checking 10.0
+3 checking 10.0
+3 checking 10.0
+3 checking 10.0
+3 checking 10.0
+3 checking 10.0
+1 checking 41.99
+1 checking 41.99
+bestandpoorest_2
+(1, 41.99)
+((41.99, 1)1 checking 41.99
+bestandpoorest_2
+(2, 20.74)
+((41.99, 1), (10.0, 3))
+minRank, maxRank1 checking 41.99
+bestandpoorest_2
+(3, 10.0)
+((41.99, 1), (10.0, 3))
+minRank, maxRank
+3 11 checking 41.99
+bestandpoorest_2
+(4, 18.19)
+((41.99, 1)1 checking 41.99
+bestandpoorest_2
+(5, 18.19)
+((41.99, 1), (10.0, 3))
+minRank, maxRank
+3 1
+bestandpoorest_2
+(0, 16.0)
+((41.99, 1), (10.0, 3))
+minRank, maxRank
+3 1
+, (10.0, 3))
+minRank, maxRank
+3 1
+(41.99, {'dropout': 0.25, 'optimizer': 'nada
+3 1
+(41.99, {'dropout': 0.25, 'optimizer': 'adadelta', 'ac
+, (10.0, 3))
+minRank, maxRank
+3 1
+(41.99, {'dropout': 0.2, 'optimizer': 'adagrad', 'activa(41.99, {'drom', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 32})
+tivation': 'elu', 'nbLayers': 12, 'nbNeurons': 32})
+(41.99, {'dropout': 0.1tion': 'tanh', 'nbLayers': 3, 'nbNeurons': 8})
+pout': 0.3, 'optimizer': 'adagrad', 'activation': 'relu', (41.99, {'dropout': 0.1, 'optimizer': 'adagrad', ', 'optimizer': 'sgd', 'activation': 'selu', 'nbLayers': 12, 'n'nbLayers': 15, 'nbNeurons': 8})
+activation': 'hard_sigmoid', 'nbLayers': 12bNeurons': 8})
+, 'nbNeurons': 32})
+rank, data, dataPrev
+0 {'dropout': 0.3, 'optimizer': 'adagrad', 'activation': 'relu', 'nbLayers': 15, 'nbrank, data, dataPrev
+1 {'dropNeurons': 8} {'dropout'out': 0.25, 'optim: 0.2, 'optimizer': 'adagraizer': 'nadam', 'activation'd', 'activation': 'tanh': 'elu', 'nbLayers': 1, 'nb, 'nbLayers': 3, 'nbNeurNeurons': 32} {'dropoutons': 8}
+': 0.3, 'optimizer': 'adagrad', 'activation': 'relu', 'nbLayers': 15, 'nbNeurons': 8}
+rank, data, dataPrev
+2 {'dropout': rank, data, dataPrev
+3 {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'hard_sigmoid', 'nbLayers': 12, 'nbNeurons': 32} {'dropout': 0.25, 'optimizer': 'adade0.25, 'optimizer': 'adadelta', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 32} {'dropout': 0.25, 'optimizlta', 'activation': 'elu', 'nbLayers': 12, 'nbNeuroer': 'nadam', 'activation': 'eluns': 32}
+', 'nbLayers': 1, 'nbNeurons': 32}
+rank, data, dataPrev
+4 {'dropout': 0.1, 'optimizer': 'sgd', 'activation': 'selu', 'nbLayers': 12, 'nbNeurons': 8} {'dropout': 0.1rank, data, dataPrev
+5 {'dropout': 0.2, 'o, 'optimizer': 'adagrad', 'activatiptimizer': 'adagrad', 'activation'on': 'hard_sigmoid', 'nbLayers: 'tanh', 'nbLayers': 3, 'nbNeuro': 12, 'nbNeurons': 32}
+ns': 8} {'dropout': 0.1, 'optimizer': 'sgd', 'activation': 'selu', 'nbLayers': 12, 'nbNeurons': 8}
+bestandpoorest_1
+(1, 41.99)
+bestandpoorest_1
+(0, 16.0)
+bestandpoorest_1
+(5, 18.77)
+bestandpoorest_1
+(4, 19.1)
+bestandpoorest_1
+(3, 34.46)
+bestandpoorest_1
+(2, 21.11)
+0 checking 0 checking 16.0
+16.0
+0 checking 16.0
+0 checking 0 checking 16.0
+16.0
+0 checking 16.0
+1 checking 41.99
+bestandpoorest_2
+(0, 16.0)
+1 checking 41.99
+bestandpoorest_2
+(1, 41.99)
+((41.99, 1), (16.0, 0))
+minRank, maxRank
+0 1
+1 checking 41.99
+bestandpoorest_2
+(2, 21.11)
+((41.99, 1), (16.0, 0))
+minRank, maxRank
+0 1
+(41.99, {'1 checking 41.99
+bestandpoorest_2
+(3, 34.46)
+((41.99, 1), (16.0, 0))
+minRank, maxRank
+0 1
+(41.99, {'dropout': 0.1, 'o1 checking 41.99
+bestandpoorest_2
+(4, 19.1)
+((41.99, 1), (16.0, 0))
+minRank, maxRank
+0 1
+(41.99, {'dropout': 1 checking 41.99
+bestandpoorest_2
+(5, 18.77)
+((41.99, 1), (16.0, 0))
+minRank, maxRank
+0 1
+(41.99, {'dropout': 0.1, 'optimizer'((41.99, 1), (16.0, 0))
+minRank, maxRank
+0 1
+(41.99, {'dropout': 0.25, 'optimdropout': 0.25, 'optimizer': 'adadelta', 'activation': 'elu', 'nbLptimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 32})
+0.1, 'optimizer': 'sgd', 'activation': 'selu', 'nbLayers': 12, 'nbNeurons': 8})
+: 'adagrad', 'activation': 'selu', 'nbLayers': 12, 'nbNeurons': 8})
+izer': 'nadam', 'activation': 'elu', 'nbLayers': 1, 'nbNayers': 12, 'nbNeurons': 32})
+eurons': 32})
+(41.99, {'dropout': 0.4, 'optimizer': 'sgd', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 8})
+rank, data, dataPrev
+1 {'dropout': 0.25, 'optimizer': 'nadam', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 32} {'dropout': 0.4, 'optimizer': 'sgd', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 8}
+rank, data, dataPrev
+0 {'dropout': 0.4, 'optimizer': 'sgd', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 8} {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'selu', 'nbLayers': 12, 'nbNeurons': 8}
+rank, data, dataPrev
+5 {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'selu', 'nbLayers': 12, 'nbNeurons': 8} {'dropout': 0.1, 'optimizer': 'sgd', 'activation': 'selu', 'nbLayers': 12, 'nbNeurons': 8}
+rank, data, dataPrev
+4 {'dropout': 0.1, 'optimizer': 'sgd', 'activation': 'selu', 'nbLayers': 12, 'nbNeurons': 8} {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 32}
+rank, data, dataPrev
+2 {'dropout': 0.25, 'optimizer': 'adadeltrank, data, dataPrev
+3 {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 32} {'dropout': 0.25, 'optimizer': 'adadelta'a', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 32} {'dropout': 0.25, 'optimizer': 'nadam', 'activation': 'e, 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 32lu', 'nbLayers': 1, 'nbNeurons': 32}
+}
+bestandpoorest_1
+(1, 41.99)
+bestandpoorest_1
+(0, 17.45)
+bestandpoorest_1
+(2, 37.980000000000004)
+bestandpoorest_1
+(5, 18.77)
+bestandpoorest_1
+(4, 37.43)
+bestandpoorest_1
+(3, 35.510000000000005)
+0 checking 17.45
+0 checking 17.45
+0 checking 17.45
+0 checking 17.45
+0 checking 17.45
+0 checking 17.45
+1 checking 41.99
+bestandpoorest_21 checking 41.99
+bestandpoorest_2
+(1, 41.99)
+1 checking 41.99
+bestandpoorest_2
+(2, 37.980000000000004)
+((1 checking 41.99
+bestandpoorest_2
+(3, 35.510000000000005)
+((41.99, 1), (17.45, 01 checking 41.99
+bestandpoorest_2
+(4, 37.43)
+((41.99, 1), (17.45, 0))
+minRank, maxRank
+0 1
+1 checking 41.99
+bestandpoorest_2
+(5, 18.77)
+((41.99, 1), (17.45, 0))
+minRank, maxRank
+0 1
+(
+(0, 17.45)
+((41.99, 1), (17.45, 0))
+minRank, maxRank
+0 1
+((41.99, 1), (17.45, 0))
+minRank, maxRank
+0 1
+(41.99, {'dropout': 41.99, 1), (17.45, 0))
+minRank, maxRank
+0 1
+(41.99, {'dropout': ))
+minRank, maxRank
+0 1
+(41.99, {'dropout': 0.1, 'optimizer': 'adagr(41.99, {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'n41.99, {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'selu', 'nbLayer0.25, 'optimizer': 'nadam', 'activation': 'elu', 'nbLayers': 1, 'nbN0.25, 'optimizer': 'nadam', 'activation': 'elu', 'nbLayers': 1, 'nad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 32})
+bLayers': 12, 'nbNeurons': 32})
+s': 12, 'nbNeurons': 8})
+eurons': 32})
+bNeurons': 32})
+(41.99, {'dropout': 0.3, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 8})
+rank, data, dataPrev
+2 {'dropout': 0.25, 'optimizer': 'nadam', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 32} {'dropout': 0.25, 'optimizer': 'nadam', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 32}
+rank, data, dataPrev
+1 {'dropout': 0.25, 'optimizer': 'nadam', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 32} {'dropout': 0.3, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 8}
+rank, data, dataPrev
+3 {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 32} {'dropout': 0.25, 'optimizer': 'nadam', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 32}
+rank, data, dataPrev
+0 {'dropout': 0.3, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 8} {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'selu', 'nbLayers': 12, 'nbNeurons': 8}
+rank, data, dataPrev
+4 {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 32} {'dropout': 0.1, 'optimizer': 'adagrrank, data, dataPrev
+5 ad', 'activation': 'elu', 'nbLa{'dropout': 0.1, 'optyers': 12, 'nbNeurons': 32}
+imizer': 'adagrad', 'activation': 'selu', 'nbLayers': 12, 'nbNeurons': 8} {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 32}
+bestandpoorest_1
+(2, 40.739999999999995)
+bestandpoorest_1
+(3, 35.510000000000005)
+bestandpoorest_1
+(1, 41.99)
+bestandpoorest_1
+(0, 24.0)
+bestandpoorest_1
+(4, 37.64)
+bestandpoorest_1
+(5, 33.46)
+0 checking 0 checking 24.0
+0 checking 24.0
+0 checking 24.0
+24.0
+0 checking 24.0
+0 checking 24.0
+1 checking 41.99
+bestandpoorest_2
+(0, 24.0)
+1 checking 41.99
+bestandpoorest_2
+(1, 41.99)
+((41.99, 1), (24.0, 0))
+minRank, maxRank
+1 checking 41.99
+bestandpoorest_2
+(2, 40.739999999999995)
+((41.99, 1), (24.0, 0))
+minRank, maxRank
+0 1
+1 checking 41.99
+bestandpoorest_2
+(3, 35.510000000000005)
+((41.99, 1), (24.0, 0))
+minRank, maxRank
+0 1
+1 checking 41.99
+bestandpoorest_2
+(4, 37.64)
+((41.99, 1), (24.0, 0))
+minRank, maxRank
+0 1
+1 checking 41.99
+bestandpoorest_2
+(5, 33.46)
+((41.99, 1), (24.0, 0))
+minRank, maxRank
+0 1
+(41.99, {'dropout': 0.1, 'optimizer': 'ada((41.99, 1), (24.0, 0))
+minRank, maxRank
+0 1
+0 1
+(41.99, {'dropout': 0.25, 'optimizer': 'nadam', 'acti(41.99, {'dropout': 0.25, 'optimizer': 'nadam', 'ac(41.99, {'dropout': 0.1, 'optimizer': 'ada(41.99, {'dropout': grad', 'activation': 'selu', 'nbLayers': 12, 'nbNeurons': 32})
+vation': 'elu', 'nbLayers': 1, 'nbNeurons': 32})
+tivation': 'elu', 'nbLayers': 1, 'nbNeurons': 32})
+grad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 32})
+0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nb(41.99, Layers': 12, 'nbNeurons': 32}){'dropout': 0.25, 'optimiz
+er': 'sgd', 'activation': 'sigmoid', 'nbLayers': 9, 'nbNeurons': 128})
+rank, data, dataPrev
+2 {'dropout': 0.25, 'optimizer': 'nadam', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 32} {'dropout': 0.25, 'optimizer': 'nadam', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 32}
+rank, data, dataPrev
+1 {'dropout': 0.25, 'optimizer': 'nadam', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 32} {'dropout': 0.25, 'optimizer': 'sgd', 'activation': 'sigmoid', 'nbLayers': 9, 'nbNeurons': 128}
+rank, data, dataPrev
+3 {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 32} {'dropout': 0.25, 'optimizer': 'nadam', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 32}
+rank, data, dataPrev
+4 {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 32} {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 32}
+rank, data, dataPrev
+5 {'dropout': 0.1, 'optimizer': 'adrank, data, dataPrev
+0 {'dropout': 0.25, 'optimizer': 'sgd', 'activation': 'sigmoagrad', 'activation': 'selu', 'nbLayers': 12, 'nbNeurons': 32} {'dropout': 0.1, 'optimizer': 'aid', 'nbLayers': 9, 'nbNeurons': 128} {'dagrad', 'activation': 'elu', 'ndropout': 0.1, 'optimizer': 'adagrad', bLayers': 12, 'nbNeurons': 32'activation': 'selu', 'nbLay}
+ers': 12, 'nbNeurons': 32}
+bestandpoorest_1
+(2, 40.739999999999995)
+bestandpoorest_1
+(5, 34.449999999999996)
+bestandpoorest_1
+(0, 24.0)
+bestandpoorest_1
+(4, 38.01)
+bestandpoorest_1
+(3, 38.87)
+bestandpoorest_1
+(1, 41.99)
+0 checking 24.0
+0 checking 24.0
+0 checking 0 checking 24.0
+24.0
+0 checking 24.0
+0 checking 24.0
+1 checking 41.99
+bestandpoorest_2
+(0, 24.0)
+((41.99, 1), (24.0, 0))1 checking 41.99
+bestandpoorest_2
+(1, 41.99)
+((41.99, 1), (24.0, 0))
+minRank, maxRank
+0 1
+(41.99, {'1 checking 41.99
+bestandpoorest_2
+(2, 40.739999999999995)
+((41.99, 1), (24.0, 0))
+minRank, maxRank
+0 1
+(41.99, 1 checking 41.99
+bestandpoorest_2
+(4, 38.01)
+((41.99, 1), (24.0, 0))
+minRank, maxRank
+0 1
+(41.99, 1 checking 41.99
+bestandpoorest_2
+(5, 34.449999999999996)
+((41.99, 1), (24.0, 0))
+minRank, maxRank
+0 1
+(41.99, {'dropout': 0.1, 'opt
+minRank, maxRank
+0 1
+dropout': 0.25, 'optimizer': 'nadam', 'activation': 'elu', 'nbLayers': 1, 'nb{'dropout': 0.25, 'optimizer': 'nadam', 'activation': 'elu', 'nbLayers': 1 checking 41.99
+bestandpoorest_2
+(3, 38.87)
+{'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, imizer': 'adagrad', 'activation': 'selu', 'nbLayers': 12, 'nbNeurons': 32})
+(41.99, {'dropout': 0.1, 'optimizer': 'adadelNeurons': 32})
+1, 'nbNeurons': 32})
+'nbNeurons': 32})
+ta', 'activation': 'selu', 'nbLayers': 3, 'nbNeurons': 8})
+((41.99, 1), (24.0, 0))
+minRank, maxRank
+0 1
+(41.99, {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 32})
+rank, data, dataPrev
+1 {'dropout'rank, data, dataPrev
+2 {'dropout': 0.25, 'optimizer': 'nadam', 'activation': 'elu', 'nbLayers': 1, 'nb: 0.25, 'optimizer': 'nadam', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 32} {'droNeurons': 32} {'dropout': 0.25, 'optipout': 0.1, 'optimizer': mizer': 'nadam', 'activation': 'elu', ''adadelta', 'activation': 'selu', 'nbnbLayers': 1, 'nbNeurons': 32}
+Layers': 3, 'nbNeurons': 8}
+rank, data, dataPrev
+3 {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 32} {'dropout': 0.25, 'optimizer': 'nadam', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 32}
+rank, data, dataPrev
+4 {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 32} {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 32}
+rank, data, dataPrev
+5 {'dropout': 0.1, 'optimizer': 'adagrrank, data, dataPrev
+0 {'droad', 'activation': 'selu', 'nbLayers': 12, 'nbNeurons': 32} {'dropout': 0.1, 'optimizer': 'adagrad', 'acpout': 0.1, 'optimizer': 'adadeltivation': 'elu', 'nbLayers': 12, 'nbNeta', 'activation': 'selu', 'nbLayers': 3, urons': 32}
+'nbNeurons': 8} {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'selu', 'nbLayers': 12, 'nbNeurons': 32}
+bestandpoorest_1
+(2, 41.449999999999996)
+bestandpoorest_1
+(3, 38.87)
+bestandpoorest_1
+(4, 38.92)
+bestandpoorest_1
+(1, 42.120000000000005)
+bestandpoorest_1
+(0, 32.25)
+bestandpoorest_1
+(5, 34.589999999999996)
+0 checking 0 checking 32.25
+0 checking 32.25
+32.25
+0 checking 32.25
+0 checking 32.25
+0 checking 32.25
+1 checking 42.120000000000005
+bestandpoorest_2
+(0, 32.25)
+((42.120000000000005, 11 checking 42.120000000000005
+bestandpoorest_2
+(1, 42.120000000000005)
+((42.120000000000005, 1), (32.25, 0))
+1 checking 42.120000000000005
+bestandpoorest_2
+(2, 41.449999999999996)
+((42.120000000000005, 1), (32.25, 0))
+minRank, maxRank
+0 1
+1 checking 42.120000000000005
+bestandpoorest_2
+(3, 38.87)
+((42.120000000000005, 1), (32.25, 0))
+1 checking 42.120000000000005
+bestandpoorest_2
+(4, 38.92)
+((42.120000000000005, 1), (32.25, 0))
+minRank, maxRank
+0 1
+1 checking 42.120000000000005
+bestandpoorest_2
+(5, 34.589999999999996)
+((42.120000000000005, 1), (32.25, 0))
+minRank, maxRank
+0 1
+(42.120000000000005, {'dropout': 0.1, 'opti), (32.25, 0))
+minRank, maxRank
+0 1
+minRank, maxRank
+0 1
+(42.120000000000005, {'dropout': 0.1, 'optimizer': 'nadam'(42.120000000000005, {'dropout': 0.25, 'optimizer': 'nadam', 'actminRank, maxRank
+0 1
+(42.120000000000005, {'d(42.120000000000005, {'dropout': 0.1, 'optimizer': 'adagrad', 'activationmizer': 'adagrad', 'activation': 'selu', 'nbLayers': 12, 'nbNeurons': 32}), 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 32})
+ivation': 'elu', 'nbLayers': 1, 'nbNeurons': 32})
+ropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', ': 'elu', 'nbLayers': 12, 'nbNeurons': 32})
+
+'nbLayers': 12, 'nbNeurons': 32(42.120000000000005, })
+{'dropout': 0.25, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 64})
+rank, data, dataPrev
+2 {'dropout': 0.25, 'optimizer': 'nadam', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 32} {'dropout': 0.1, 'optimizer': 'nadam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 32}
+rank, data, dataPrev
+3 {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 32} {'dropout': 0.25, 'optimizer': 'nadam', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 32}
+rank, data, dataPrev
+4 {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 32} {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 32}
+rank, data, dataPrev
+5 {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'selu', 'nbLayers': 12, 'nbNeurons': 32} {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 32}
+rank, data, dataPrev
+0 {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 64} {'dropout': 0.1, 'optimizrank, data, dataPrev
+1 {'dropout': 0.1, 'optimizer': 'nadam', 'activation': 'eluer': 'adagrad', 'activation': 's', 'nbLayers': 3, 'nbNeurons': 32} elu', 'nbLayers': 12, 'nbNeu{'dropout': 0.25, 'optimizer': 'adarons': 32}
+m', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 64}
+bestandpoorest_1
+(3, 38.87)
+bestandpoorest_1
+(2, 41.449999999999996)
+bestandpoorest_1
+(1, 42.120000000000005)
+bestandpoorest_1
+(4, 38.92)
+bestandpoorest_1
+(5, 39.589999999999996)
+bestandpoorest_1
+(0, 39.12)
+3 checking 38.87
+3 checking 38.87
+3 checking 3 checking 38.87
+38.87
+3 checking 38.87
+3 checking 38.87
+1 checking 42.120000000000005
+bestandpoorest_2
+(0, 39.12)
+((42.120000000000005, 1)1 checking 42.120000000000005
+bestandpoorest_2
+(1, 42.120000000000005)
+((42.120000000000005, 1), (38.87, 3))
+minRank, maxRank
+3 11 checking 42.120000000000005
+bestandpoorest_2
+(2, 41.449999999999996)
+((42.120000000000005, 1), (38.87, 3))
+minRank, maxRank
+3 1
+1 checking 42.120000000000005
+bestandpoorest_2
+(3, 38.87)
+((42.120000000000005, 1), (38.87, 3))
+minRank, maxRank
+3 1
+1 checking 42.120000000000005
+bestandpoorest_2
+(4, 38.92)
+((42.120000000000005, 1), (38.87, 3))
+minRank, maxRank
+3 1
+(42.120000000000005, {'1 checking 42.120000000000005
+bestandpoorest_2
+(5, 39.589999999999996)
+((42.120000000000005, 1), (38.87, 3))
+minRank, maxRank
+3 1
+(, (38.87, 3))
+minRank, maxRank
+3 1
+(42.120000000000005, {'dropout': 0.25, 'optimizer': 'adam', 'activat
+(42.120000000000005, {'dropout': 0.1, 'optimizer': 'nadam', 'activation': 'elu(42.120000000000005, {'dropout': 0.25, 'optimizer': 'nadam', 'activation': 'elu', dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'n42.120000000000005, {'dropout': 0.1, 'optimizer': 'adagrad', 'aion': 'elu', 'nbLayers': 6, 'nbNeurons': 64})
+', 'nbLayers': 3, 'nbNeurons': 32})
+'nbLayers': 1, 'nbNeurons': 32})
+bNeurons': 32})
+ctivation': 'elu', 'nbLayers': 12, 'nbNeurons': 32})
+(42.120000000000005, {'dropout': 0.3, 'optimizer': 'nadam', 'activation': 'sigmoid', 'nbLayers': 6, 'nbNeurons': 32})
+rank, data, dataPrev
+2 {'dropout': 0.25, 'optimizer': 'nadam', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 32} {'dropout': 0.1, 'optimizer': 'nadam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 32}
+rank, data, dataPrev
+3 {'dropout': 0.3, 'optimizer': 'nadam', 'activation': 'sigmoid', 'nbLayers': 6, 'nbNeurons': 32} {'dropout': 0.25, 'optimizer': 'nadam', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 32}
+rank, data, dataPrev
+4 {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 32} {'dropout': 0.3, 'optimizer': 'nadam', 'activation': 'sigmoid', 'nbLayers': 6, 'nbNeurons': 32}
+rank, data, dataPrev
+5 {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 32} {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 32}
+rank, data, dataPrev
+0 {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 64} {'dropout': rank, data, dataPrev
+1 {'dropout': 0.1, 'optimizer': 'nadam', 'activation': 'elu', 'nbLayers': 3, 'nbN0.1, 'optimizer': 'adagrad', 'activatieurons': 32} {'dropout': 0.25, 'optimizer': 'adaon': 'elu', 'nbLayers': 12, 'nbNeum', 'activation': 'elu', 'nbLayers': 6, 'nbNeurrons': 32}
+ons': 64}
+bestandpoorest_1
+(2, 41.449999999999996)
+bestandpoorest_1
+(0, 39.12)
+bestandpoorest_1
+(3, 38.87)
+bestandpoorest_1
+(5, 39.589999999999996)
+bestandpoorest_1
+(4, 38.92)
+bestandpoorest_1
+(1, 45.93)
+3 checking 3 checking 38.87
+38.87
+3 checking 38.87
+3 checking 3 checking 38.87
+3 checking 38.87
+38.87
+1 checking 45.93
+bestandpoorest_2
+(0, 39.12)
+((1 checking 45.93
+bestandpoorest_2
+(1, 45.93)
+((45.93, 1), (38.87, 3))
+minRank, maxRank
+3 1
+1 checking 45.93
+bestandpoorest_2
+(2, 41.449999999999996)
+((45.93, 1), (38.87, 3))
+minRank, maxRank
+3 1
+(1 checking 45.93
+bestandpoorest_2
+(3, 38.87)
+((45.93, 1), (38.87, 3))
+minRank, maxRank
+3 1
+1 checking 45.93
+bestandpoorest_2
+(4, 38.92)
+((45.93, 1), (38.87, 3))
+minRank, maxRank
+3 1
+(45.93, {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'e1 checking 45.93
+bestandpoorest_2
+(5, 39.589999999999996)
+((45.93, 1), (38.87, 3))
+minRank, maxRank
+3 1
+(45.93, {'dropout': 0.1, 'optimizer': 'ada45.93, 1), (38.87, 3))
+minRank, maxRank
+3 1
+(45.93, {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 6, (45.93, {'dropout': 0.1, 'optimizer': 'nadam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64})
+45.93, {'dropout': 0.25, 'optimizer': 'nadam', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 32})
+lu', 'nbLayers': 12, 'nbNeurons': 32})
+grad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 32})
+'nbNeurons': 64})
+(45.93, {'dropout': 0.3, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 32})
+rank, data, dataPrev
+3 {'dropout': 0.3, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 32} {'dropout': 0.25, 'optimizer': 'nadam', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 32}
+rank, data, dataPrev
+2 {'dropout': 0.25, 'optimizer': 'nadam', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 32} {'dropout': 0.1, 'optimizer': 'nadam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64}
+rank, data, dataPrev
+4 {'dropout': 0.1, 'optimizer': rank, data, dataPrev
+5 {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 32} {'drop'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 32} {'dropout': 0.3, 'optimizer': 'adamax', 'activation': 'elu', 'nbout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayLayers': 6, 'nbNeurons': 32ers': 12, 'nbNeurons': 32}
+}
+rank, data, dataPrev
+0 {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 6, 'nbNeuronsrank, data, dataPrev
+1 {'dropout': 0.1, 'optimizer': 'nadam', 'activation': 'elu', 'nbLayers': 3, 'nbNeuro': 64} {'dropout': 0.1, 'optns': 64} {'dropout': 0.25, 'optimizer': 'aimizer': 'adagrad', 'actdam', 'activation': 'elu', 'nbLayers': 6, ivation': 'elu', 'nbLayer'nbNeurons': 64}
+s': 12, 'nbNeurons': 32}
+bestandpoorest_1
+(0, 41.92)
+bestandpoorest_1
+(2, 42.199999999999996)
+bestandpoorest_1
+(5, 39.589999999999996)
+bestandpoorest_1
+(3, 38.87)
+bestandpoorest_1
+(1, 46.14)
+bestandpoorest_1
+(4, 38.92)
+3 checking 38.87
+3 checking 38.87
+3 checking 38.87
+3 checking 38.87
+3 checking 38.87
+3 checking 38.87
+1 checking 46.14
+bestandpoorest_2
+(0, 41.92)
+((1 checking 46.14
+bestandpoorest_2
+(1, 46.14)
+((46.14, 1), (38.87, 3))
+minRank, maxRank
+31 checking 46.14
+bestandpoorest_2
+(2, 42.199999999999996)
+((46.14, 1), (38.87, 3))
+minRank, maxRank
+3 1
+1 checking 46.14
+bestandpoorest_2
+(3, 38.87)
+((46.14, 1), (38.87, 3))
+minRank, maxRank
+3 1
+1 checking 46.14
+bestandpoorest_2
+(4, 38.92)
+((46.14, 1), (38.87, 3))
+minRank, maxRank
+3 1
+(46.14, {'dropout': 0.1, 1 checking 46.14
+bestandpoorest_2
+(5, 39.589999999999996)
+((46.14, 1), (38.87, 3))
+minRank, maxRank
+3 1
+(46.14, {'dropout': 46.14, 1), (38.87, 3))
+minRank, maxRank
+3 1
+(46.14, {'dropout': 0.1, 'optimizer':  1
+(46.14, {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLay(46.14, {'dropout': 0.25, 'optimizer': 'nadam', 'activation'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeu0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeur'adagrad', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 32})
+ers': 3, 'nbNeurons': 64})
+': 'elu', 'nbLayers': 1, 'nbNeurons': 32})
+(46.14, {'dropout': 0.5, 'optimizer': 'sgd', 'actrons': 32})
+ons': 32})
+ivation': 'tanh', 'nbLayers': 15, 'nbNeurons': 16})
+rank, data, dataPrev
+3 {'dropout': 0.5, 'optimizer': 'sgd', 'activation': 'tanh', 'nbLayers': 15, 'nbNeurons': 16} {'dropout': 0.25, 'optimizer': 'nadam', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 32}
+rank, data, dataPrev
+1 {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64} {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 32}
+rank, data, dataPrev
+2 {'dropout': 0.25, 'optimizer': 'nadam', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 32} {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64}
+rank, data, dataPrev
+4 {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 32} {'dropout': 0.5, 'optimizer': 'sgd', 'activation': 'tanh', 'nbLayers': 15, 'nbNeurons': 16}
+rank, data, dataPrev
+0 {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'rank, data, dataPrev
+5 {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 32} {'dropout': 0.1, 'optimizer': 'adagrad', 'activation'elu', 'nbLayers': 6, 'nbNeurons': 32} {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 32}
+: 'elu', 'nbLayers': 12, 'nbNeurons': 32}
+bestandpoorest_1
+(3, 38.87)
+bestandpoorest_1
+(2, 42.199999999999996)
+bestandpoorest_1
+(4, 39.800000000000004)
+bestandpoorest_1
+(1, 46.14)
+bestandpoorest_1
+(5, 39.589999999999996)
+bestandpoorest_1
+(0, 41.92)
+3 checking 38.87
+3 checking 38.87
+3 checking 38.87
+3 checking 38.87
+3 checking 38.87
+3 checking 38.87
+1 checking 46.14
+bestandpoorest_2
+(0, 41.92)
+((46.14, 1), (38.871 checking 46.14
+bestandpoorest_2
+(1, 46.14)
+((46.14, 1), (38.87, 3))
+1 checking 46.14
+bestandpoorest_2
+(2, 42.199999999999996)
+((46.14, 1), (38.87, 3))
+minRank, maxRank
+3 1
+1 checking 46.14
+bestandpoorest_2
+(3, 38.87)
+((46.14, 1), (38.87, 3))
+minRank, maxRank
+31 checking 46.14
+bestandpoorest_2
+(4, 39.800000000000004)
+((46.14, 1), (38.87, 3))
+minRank, maxRank
+3 1
+1 checking 46.14
+bestandpoorest_2
+(5, 39.589999999999996)
+, 3))
+minRank, maxRank
+3 1
+(46.14, {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers'minRank, maxRank
+3 1
+(46.14, {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'e(46.14, {'dropout': 0.25, 'optimize 1
+(46.14, {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', ((46.14, 1), (38.87, 3))
+minRank, maxRank
+3 1
+: 6, 'nbNeurons': 32})
+lu', 'nbLayers': 3, 'nbNeurons': 64})
+r': 'nadam', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 32})
+'nbLayers': 12, 'nbNeurons': 32})
+(46.14, {'dropout': (46.14, 0.1, 'optimizer{'dropout': 0.25, 'optim': 'adagrad', 'activation': 'izer': 'adamax', 'activatelu', 'nbLayers': 12ion': 'relu', 'nbLayers': 9, 'nbNeurons': 32})
+, 'nbNeurons': 4})
+rank, data, dataPrev
+3 {'dropout': 0.25, 'optimizer': 'adamax', 'activation': 'relu', 'nbLayers': 9, 'nbNeurons': 4} {'dropout': 0.25, 'optimizer': 'nadam', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 32}
+rank, data, dataPrev
+4 {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 32} {'dropout': 0.25, 'optimizer': 'adamax', 'activation': 'relu', 'nbLayers': 9, 'nbNeurons': 4}
+rank, data, dataPrev
+1 {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64} {'dropout': 0.1, 'optimizerrank, data, dataPrev
+2 {': 'adagrad', 'activation': 'elu', 'dropout': 0.25, 'optimize'nbLayers': 6, 'nbNeurons': 32}
+r': 'nadam', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 32} {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64}
+rank, data, dataPrev
+0 rank, data, dataPrev
+5 {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 32} {'dropout': 0.1, 'op{'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 32} {'drotimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNpout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu'eurons': 32}
+, 'nbLayers': 12, 'nbNeurons': 32}
+bestandpoorest_1
+(1, 46.14)
+bestandpoorest_1
+(2, 42.199999999999996)
+bestandpoorest_1
+(0, 41.92)
+bestandpoorest_1
+(4, 39.800000000000004)
+bestandpoorest_1
+(3, 38.87)
+bestandpoorest_1
+(5, 39.589999999999996)
+3 checking 38.87
+3 checking 38.87
+3 checking 38.87
+3 checking 38.87
+3 checking 38.87
+3 checking 38.87
+1 checking 46.14
+bestandpoorest_2
+(0, 41.92)
+((46.14, 1), (38.87, 31 checking 46.14
+bestandpoorest_2
+(1, 46.14)
+((46.14, 1), (38.87, 3))
+minRank, maxRank
+31 checking 46.14
+bestandpoorest_2
+(2, 42.199999999999996)
+((46.14, 1), (38.87, 3))
+minRank, maxRank
+1 checking 46.14
+bestandpoorest_2
+(3, 38.87)
+((46.14, 1), (38.87, 3))
+minRank, maxRank
+3 1
+1 checking 46.14
+bestandpoorest_2
+(4, 39.800000000000004)
+((46.14, 1), (38.87, 3))
+minRank, maxRank
+3 1
+(46.14, {'1 checking 46.14
+bestandpoorest_2
+(5, 39.589999999999996)
+((46.14, 1), (38.87, 3))
+minRank, maxRank
+3 1
+(46.14, {'dropout': 0.1, 'optimiz))
+minRank, maxRank
+3 1
+(46.14, {'dropout': 0.1, 'optimizer': 'adagrad', 'activatio 1
+(46.14, {'dropout': 0.1, 'optimizer': 'adam', 'act3 1
+(46.14, {'dropout'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLaer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 32}n': 'elu', 'nbLayers': 6, 'nbNeurons': 32})
+ivation': 'elu', 'nbLayers': 3, 'nbNeurons': 64})
+: 0.25, 'optimizer': 'nadam', 'activation': 'eyers': 12, 'nbNeurons': 32})
+)
+lu', 'nbLayers': 1, 'nbNeurons': 32})
+(46.14, {'dropout': 0.4, 'optimizer': 'nadam', 'activation': 'hard_sigmoid', 'nbLayers': 12, 'nbNeurons': 128})
+rank, data, dataPrev
+1 {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64} {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 32}
+rank, data, dataPrev
+2 {'dropout': 0.25, 'optimizer': 'nadam', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 32} {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64}
+rank, data, dataPrev
+5 {'dropout': 0.1, 'optimizer': 'adarank, data, dataPrev
+0 {'dropout': grad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 32} {'dropout': 0.1, 'optimizer': 'adagrad', 'ac0.1, 'optimizer': 'adagrad', 'activationtivation': 'elu', 'nbLayers': 12, 'n': 'elu', 'nbLayers': 6, 'nbNeurons'bNeurons': 32}
+: 32} {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 32}
+rank, data, dataPrev
+3 {'dropout': 0.4, 'optimizerrank, data, dataPrev
+4 {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, '': 'nadam', 'activation': 'hard_sigmoid', 'nbLayers': 12, 'nbNeurons': 128} {'dropout': 0.25, 'optimizer': 'nadnbNeurons': 32} {'dropout': 0.4, 'optimizer': 'naam', 'activation': 'elu', 'nbLayers'dam', 'activation': 'hard_sigmoid', 'nbLayers': 12, 'nbNeurons: 1, 'nbNeurons': 32}
+': 128}
+bestandpoorest_1
+(0, 42.21)
+bestandpoorest_1
+(2, 43.82)
+bestandpoorest_1
+(4, 39.800000000000004)
+bestandpoorest_1
+(1, 46.14)
+bestandpoorest_1
+(3, 40.839999999999996)
+bestandpoorest_1
+(5, 39.589999999999996)
+5 checking 39.589999999999996
+5 checking 39.589999999999996
+5 checking 39.589999999999996
+5 checking 39.589999999999996
+5 checking 39.589999999999996
+5 checking 39.589999999999996
+1 checking 46.14
+bestandpoorest_2
+(1 checking 46.14
+bestandpoorest_2
+(1, 46.14)
+1 checking 46.14
+bestandpoorest_2
+(3, 40.839999999999996)
+((46.14, 1), 1 checking 46.14
+bestandpoorest_2
+(4, 39.800000000000004)
+((46.14, 1), (1 checking 46.14
+bestandpoorest_2
+(5, 39.589999999999996)
+((46.14, 1), (39.589999999999996, 5))
+minRank, maxRank0, 42.21)
+((46.14, 1), (39.589999999999996, 5))
+minRank, maxRank
+5 1
+((46.14, 1), (39.589999999999996, 5))
+minRank, maxRank
+5 1
+1 checking 46.14
+bestandpoorest_2
+(2, 43.82)
+((46.14, 1), (39.589999999999996, 5))
+(39.589999999999996, 5))
+minRank, maxRank
+5 1
+(46.14, {'dropout': 0.25, '39.589999999999996, 5))
+minRank, maxRank
+5 1
+(46.14, 
+5 1
+(46.14, {'dropout': 0.1, 'optimiz(46.14, {'dropoutminRank, maxRank
+5 1
+optimizer': 'nadam', 'acti{'dropout': 0.1, 'optimizer': 'adaer': 'adagrad', 'activation': 'elu', 'nbLayers': ': 0.1, 'optimizer': 'adam', 'activation': 'el(46.14, {'vation': 'elu', 'nbLayers': 1, 'nbNeurons': 128})
+grad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 6, 'nbNeurons': 32})
+u', 'nbLayers': 3, 'nbNeurons': 64})
+dropout': 0.1, 'optimizer': 'n32})
+adam', 'activation': 'elu', 'nbLa(46.14, {'dropout': 0.2, 'optimizer': 'adam', 'activation': 'selu', 'nyers': 3, 'nbNeurons': 64})
+bLayers': 12, 'nbNeurons': 64})
+rank, data, dataPrev
+1 {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64} {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 32}
+rank, data, dataPrev
+2 {'dropout': 0.1, 'optimizer': 'nadam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64} {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64}
+rank, data, dataPrev
+3 {'dropout': 0.25, 'optimizer': 'nrank, data, dataPrev
+4 {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 32} {'dropout': 0.25, 'optimizer': 'nadam'adam', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 128} {'dropout': 0.1, 'optimizer': ', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 128}
+nadam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64}
+rank, data, dataPrev
+5 {'dropout': 0.2, 'optimizrank, data, dataPrev
+0 {'dropout': 0.1, 'optimizer': 'adagrad', 'activaer': 'adam', 'activation': 'selu', 'nbLayers': 12, 'nbNeurons': 64} {'dropout': 0.1, 'optimizer': 'adagrtion': 'elu', 'nbLayers': 6, 'nbNeurons': 32} ad', 'activation': 'elu', 'nbLayers': 12, 'nb{'dropout': 0.2, 'optimizer': 'adam', 'activatNeurons': 32}
+ion': 'selu', 'nbLayers': 12, 'nbNeurons': 64}
+bestandpoorest_1
+(0, 42.21)
+bestandpoorest_1
+(1, 47.13)
+bestandpoorest_1
+(2, 46.910000000000004)
+bestandpoorest_1
+(4, 39.800000000000004)
+bestandpoorest_1
+(3, 43.1)
+bestandpoorest_1
+(5, 39.589999999999996)
+5 checking 39.589999999999996
+5 checking 39.589999999999996
+5 checking 39.589999999999996
+5 checking 39.589999999999996
+5 checking 39.589999999999996
+5 checking 39.589999999999996
+1 checking 47.13
+bestandpoorest_2
+(0, 42.21)
+((47.13, 1), (1 checking 47.13
+bestandpoorest_2
+(1, 47.13)
+((47.13, 1), (39.589999999999996, 5))
+minRank, maxRank
+5 1
+1 checking 47.13
+bestandpoorest_2
+(2, 46.910000000000004)
+((47.13, 1), (39.589999999999996, 5))
+minRank, maxRank
+5 1
+1 checking 47.13
+bestandpoorest_2
+(3, 43.1)
+((47.13, 1), (39.589999999999996, 5))
+minRank, maxRank
+5 1
+(47.13, {'dropout1 checking 47.13
+bestandpoorest_2
+(4, 39.800000000000004)
+((47.13, 1), (39.589999999999996, 5))
+minRank, maxRank
+5 1
+(47.13, {'dropout1 checking 47.13
+bestandpoorest_2
+(5, 39.589999999999996)
+((47.13, 1), (39.589999999999996, 5))
+minRank, maxRank
+5 1
+39.589999999999996, 5))
+minRank, maxRank
+5 1
+(47.13, {'dropout': 0.1, 'optimizer': 'adagr(47.13, {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', (47.13, {'dropout': 0.1, 'optimizer': 'adam', 'activation': ': 0.25, 'optimizer': 'nadam', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons'': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 32ad', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 32})
+'nbLayers': 3, 'nbNeurons': 64})
+'elu', 'nbLayers': 3, 'nbNeurons': 64})
+: 128})
+})
+(47.13, {'dropout': 0.4, 'optimizer': 'adam', 'activation': 'tanh', 'nbLayers': 12, 'nbNeurons': 64})
+rank, data, dataPrev
+1 {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64} {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 32}
+rank, data, dataPrev
+4 {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 32} {'dropout': 0.25, 'optimizer': 'nadam', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 128}
+rank, data, dataPrev
+2 {'dropout': 0.1, 'optimizer'rank, data, dataPrev
+3 {'dropout': 0.25, 'optimizer': 'nadam', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 128} {'dropou: 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64} {'dropout': 0.1, 'optimizer': 'adt': 0.1, 'optimizer': 'adam', 'activation': 'am', 'activation': 'elu', 'nbLaelu', 'nbLayers': 3, 'nbNeurons'yers': 3, 'nbNeurons': 64}
+: 64}
+rank, data, dataPrev
+0 {'dropout': 0.1, 'optimrank, data, dataPrev
+5 {'dropout': 0.4, 'optimizer': 'adam', 'activation': 'tanh', 'nbLayers': 12, 'nbNeurons': 64} {'dropout': 0.1, 'oizer': 'adagrad', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 32} {'dropout': 0.4, 'optimizer': 'adam', 'activation': 'tptimizer': 'adagrad', 'activation': 'elu', 'nbLaanh', 'nbLayers': 12, 'nbNeurons': 64}
+yers': 12, 'nbNeurons': 32}
+bestandpoorest_1
+(3, 43.580000000000005)
+bestandpoorest_1
+(1, 47.13)
+bestandpoorest_1
+(2, 46.910000000000004)
+bestandpoorest_1
+(5, 39.589999999999996)
+bestandpoorest_1
+(0, 45.269999999999996)
+bestandpoorest_1
+(4, 45.35)
+5 checking 39.589999999999996
+5 checking 39.589999999999996
+5 checking 39.589999999999996
+5 checking 39.589999999999996
+5 checking 39.589999999999996
+5 checking 39.589999999999996
+1 checking 47.13
+bestandpoorest_2
+(1 checking 47.13
+bestandpoorest_2
+(1, 47.13)
+1 checking 47.13
+bestandpoorest_2
+(2, 46.910000000000004)
+((47.13, 1), (39.589999999999996, 5))
+minRank, maxRank
+5 1
+1 checking 47.13
+bestandpoorest_2
+(4, 45.35)
+((47.13, 1), (39.589999999999996, 5))
+minRank, maxRank
+5 1
+(0, 45.269999999999996)
+((47.13, 1), (39.589999999999996, 5))
+minRank, maxRank
+5 1
+(47.13, {'dropout': ((47.13, 1), (39.589999999999996, 5))
+minRank, maxRank
+5 1
+(47.13, {'(47.13, {'dropout': 0.1, 'optimizer': 'adam', 'activation': 1 checking 47.13
+bestandpoorest_2
+(3, 43.580000000000005)
+((47.13, 1), (39.589999999999996, 5))
+minRank, maxRank
+5 1
+47.13, {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 1 checking 47.13
+bestandpoorest_2
+(5, 39.589999999999996)
+((47.13, 1), (39.589999999999996, 5))
+minRank, maxRank
+5 1
+0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 64})
+dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64})
+'elu', 'nbLayers': 3, 'nbNeurons': 64})
+'nbNeurons': 128})
+(47.13, {'dropout': 0.5, 'optimizer': 'adam', 'activation': 'tanh', 'nbLayers': 3, 'nbNeurons': 32})
+(47.13, {'dropout': 0.25, 'optimizer': 'nadam', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 128})
+rank, data, dataPrev
+2 {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64} {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64}
+rank, data, dataPrev
+0 {'drank, data, dataPrev
+1 {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'ropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 64} {'dropout': 0.5nbNeurons': 64} {'dropout': 0.1, 'op, 'optimizer': 'adam', 'activation': 'tanh', timizer': 'adagrad', 'activation': 'elu', 'n'nbLayers': 3, 'nbNeurons': 32}
+bLayers': 6, 'nbNeurons': 64}
+rank, data, dataPrev
+3 {'dropout': 0.25, 'optimizer': 'nadam', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 128} {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64}
+rank, data, dataPrev
+4 {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 128} {'dropout': 0.25, 'optimizer': 'nadam', 'actrank, data, dataPrev
+5 {'dropout': 0.5, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 128}
+ivation': 'tanh', 'nbLayers': 3, 'nbNeurons': 32} {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 128}
+bestandpoorest_1
+(1, 47.410000000000004)
+bestandpoorest_1
+(2, 46.910000000000004)
+bestandpoorest_1
+(3, 43.580000000000005)
+bestandpoorest_1
+(0, 45.269999999999996)
+bestandpoorest_1
+(4, 47.43)
+bestandpoorest_1
+(5, 39.589999999999996)
+5 checking 5 checking 39.589999999999996
+5 checking 39.589999999999996
+39.589999999999996
+5 checking 39.589999999999996
+5 checking 39.589999999999996
+5 checking 39.589999999999996
+4 checking 47.43
+4 checking 47.43
+bestandpoorest_2
+(1, 47.410000000000004)
+4 checking 47.43
+bestandpoorest_2
+(2, 46.910000000000004)
+((47.43, 4), (39.5899999999999964 checking 47.43
+bestandpoorest_2
+(3, 43.580000000000005)
+((47.43, 4), (39.589999999999996, 5))
+minRank, maxRank
+4 checking 47.43
+bestandpoorest_2
+(4, 47.43)
+((47.43, 4), (39.589999999999996, 5))
+minRank, maxRank
+5 4
+(47.43, {'dropo4 checking 47.43
+bestandpoorest_2
+(5, 39.589999999999996)
+((47.43, 4), (39.589999999999996, 5))
+minRank, maxRank
+5 4
+bestandpoorest_2
+(0, 45.269999999999996)
+((47.43, 4), (39.589999999999996, 5))
+minRank, maxRank
+5 4
+(47.43, {'dropout': 0.1, ((47.43, 4), (39.589999999999996, 5))
+minRank, maxRank
+5 4
+(47.43, {'dropout': 0.1, 'optimizer': 'adam', 'activat, 5))
+minRank, maxRank
+5 4
+(47.43, {'dropout': 0.1, 'optimizer': 'adam', 'activation5 4
+(47.43, {'dropout': 0.25, 'optimizer': 'nadam', 'activation': 'elu', 'nbLaut': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 128})
+'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 64})
+ion': 'elu', 'nbLayers': 3, 'nbNeurons': 64})
+': 'elu', 'nbLayers': 3, 'nbNeurons': 64})
+yers': 1, 'nbNeurons': 128})
+(47.43, {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'selu', 'nbLayers': 3, 'nbNeurons': 16})
+rank, data, dataPrev
+2 {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64} {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64}
+rank, data, dataPrev
+0 {'dropout': 0.1, 'oprank, data, dataPrev
+1 {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64} {'dropout': 0.1, 'optimizer'timizer': 'adagrad', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 64} {'dropout': 0.2, 'optimizer': 'adamax', 'ac: 'adagrad', 'activation': 'elu', 'nbLayetivation': 'selu', 'nbLayers': 3, 'nbNrs': 6, 'nbNeurons': 64}
+eurons': 16}
+rank, data, dataPrev
+3 {'dropout': 0.25, 'optimizer': 'nadam', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 128} {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64}
+rank, data, dataPrev
+4 {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 128} {'dropout': 0.25, 'optimizer': 'nadam', 'acrank, data, dataPrev
+5 {'dropout': 0.2, 'optimizer': 'adamax', 'ativation': 'elu', 'nbLayers': 1, 'nbNeurons'ctivation': 'selu', 'nbLayers': 3, 'nbNeurons': 16} {: 128}
+'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 128}
+bestandpoorest_1
+(3, 43.580000000000005)
+bestandpoorest_1
+(0, 45.269999999999996)
+bestandpoorest_1
+(2, 47.21)
+bestandpoorest_1
+(1, 47.410000000000004)
+bestandpoorest_1
+(4, 47.43)
+bestandpoorest_1
+(5, 39.589999999999996)
+5 checking 39.589999999999996
+5 checking 39.589999999999996
+5 checking 39.589999999999996
+5 checking 39.589999999999996
+5 checking 39.589999999999996
+5 checking 39.589999999999996
+4 checking 47.43
+bestandpoorest_2
+(0, 45.269999999999996)
+((47.43, 4 checking 47.43
+bestandpoorest_2
+(1, 47.410000000000004)
+((47.43, 4), (39.589999999999996, 5))
+minRank, maxRank
+5 4
+4 checking 47.43
+bestandpoorest_2
+(2, 47.21)
+((47.43, 4), (39.589999999999996, 5))
+minRank, maxRank
+5 4
+(47.43, {'dropout': 4 checking 47.43
+bestandpoorest_2
+(3, 43.580000000000005)
+((47.43, 4), (39.589999999999996, 5))
+minRank, maxRank
+5 44 checking 47.43
+bestandpoorest_2
+(4, 47.43)
+((47.43, 4), (39.589999999999996, 5))
+minRank, maxRank
+5 4
+(47.43, {'dropout': 0.1, 'optimizer'4 checking 47.43
+bestandpoorest_2
+(5, 39.589999999999996)
+((47.43, 4), (39.589999999999996, 5))
+minRank, maxRank
+5 4
+4), (39.589999999999996, 5))
+minRank, maxRank
+5 4
+(47.43, {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 6, 'nb(47.43, {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64})
+0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64})
+
+: 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 128})
+Neurons': 64})
+(47.43, {'dropout': 0.4, 'optimizer': 'sgd', 'activation': 'selu', 'nbLayers': 1, 'nbNeurons': 128})
+(47.43, {'dropout': 0.25, 'optimizer': 'nadam', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 128})
+rank, data, dataPrev
+2 {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64} {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64}
+rank, data, dataPrev
+0 {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 64} {'dropout': 0.4, 'optimirank, data, dataPrev
+1 {'zer': 'sgd', 'activation': 'selu', 'nbLayerdropout': 0.1, 'optimizer': 's': 1, 'nbNeurons': 128}
+adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64} {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 64}
+rank, data, dataPrev
+3 {'dropout': 0.25, 'optimizer': 'nadam', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 128} {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64}
+rank, data, dataPrev
+4 {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 128} {'dropout': 0.25, 'optimizer': 'nadam', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 128}
+rank, data, dataPrev
+5 {'dropout': 0.4, 'optimizer': 'sgd', 'activation': 'selu', 'nbLayers': 1, 'nbNeurons': 128} {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 128}
+bestandpoorest_1
+(0, 45.269999999999996)
+bestandpoorest_1
+(2, 47.21)
+bestandpoorest_1
+(3, 44.05)
+bestandpoorest_1
+(1, 47.410000000000004)
+bestandpoorest_1
+(4, 47.43)
+bestandpoorest_1
+(5, 39.589999999999996)
+5 checking 39.589999999999996
+5 checking 39.589999999999996
+5 checking 39.589999999999996
+5 checking 39.589999999999996
+5 checking 39.589999999999996
+5 checking 39.589999999999996
+4 checking 47.43
+bestandpoorest_2
+(0, 4 checking 47.43
+bestandpoorest_2
+(1, 47.410000000000004)
+((47.43, 4), (4 checking 47.43
+bestandpoorest_2
+(2, 47.21)
+((47.43, 4 checking 47.43
+bestandpoorest_2
+(3, 44.05)
+((47.43, 4), (39.589999999999996, 54 checking 47.43
+bestandpoorest_2
+(4, 47.43)
+((47.43, 4), (39.589999999999996, 5))
+minRank, maxRank
+5 4
+(47.43, {4 checking 47.43
+bestandpoorest_2
+(5, 39.589999999999996)
+((47.43, 4), (39.589999999999996, 5))
+minRank, maxRank
+5 4
+45.269999999999996)
+((47.43, 4), (39.589999999999996, 5))
+minRank, maxRank
+5 4
+(47.43, {'dropout': 0.1, 'optimizer'39.589999999999996, 5))
+minRank, maxRank
+5 4
+(47.43, {'dropout': 0.1, 'optimizer': 'adam', 'activation': '4), (39.589999999999996, 5))
+minRank, maxRank
+5 4
+(47.43, ))
+minRank, maxRank
+5 4
+(47.43, {'dropout': 'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 128}): 'adagrad', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 64})
+elu', 'nbLayers': 3, 'nbNeurons': 64})
+{'dropout': 0.1, 'optimizer': 'adam', 'activat0.25, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers'
+(47.43, {'dropout': 0.1, 'optimizer': 'adadelta', 'activation': 'ion': 'elu', 'nbLayers': 3, 'nbNeurons': 64})
+: 3, 'nbNeurons': 64})
+tanh', 'nbLayers': 12, 'nbNeurons': 128})
+rank, data, dataPrev
+2 {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64} {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64}
+rank, data, dataPrev
+3 {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64} {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64}
+rank, data, dataPrev
+1 {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64} {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 64}
+rank, data, dataPrev
+4 {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 128} {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64}
+rank, data, dataPrev
+5 {'dropout': 0.1, 'optimizer': 'adadelta', 'arank, data, dataPrev
+0 {'dropout': 0.1, 'optimizer': ctivation': 'tanh', 'nbLayers': 12, 'nbNeurons': 128} {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNe'adagrad', 'activation': 'elu', 'nbLayers': 6, 'nbNeururons': 128}
+ons': 64} {'dropout': 0.1, 'optimizer': 'adadelta', 'activation': 'tanh', 'nbLayers': 12, 'nbNeurons': 128}
+bestandpoorest_1
+(3, 44.05)
+bestandpoorest_1
+(1, 47.410000000000004)
+bestandpoorest_1
+(2, 47.21)
+bestandpoorest_1
+(4, 47.43)
+bestandpoorest_1
+(5, 40.81)
+bestandpoorest_1
+(0, 45.269999999999996)
+5 checking 40.81
+5 checking 40.81
+5 checking 40.81
+5 checking 40.81
+5 checking 40.81
+5 checking 40.81
+4 checking 47.43
+bestandpoorest_2
+(0, 45.269999999999996)4 checking 47.43
+bestandpoorest_2
+(1, 47.410000000000004)
+((47.43, 4), (40.81, 5))4 checking 47.43
+bestandpoorest_2
+(2, 47.21)
+((47.43, 4), (40.81, 5)4 checking 47.43
+bestandpoorest_2
+(3, 44.05)
+((47.43, 4), (40.81, 5))
+minRank, maxRank
+5 4
+4 checking 47.43
+bestandpoorest_2
+(4, 47.43)
+((47.43, 4), (40.81, 5))
+minRank, maxRank
+5 4
+(47.43, {'drop4 checking 47.43
+bestandpoorest_2
+(5, 40.81)
+((47.43, 4), (40.81, 5))
+minRank, maxRank
+5 4
+
+((47.43, 4), (40.81, 5))
+minRank, maxRank
+5 4
+(47.43, {'dr
+minRank, maxRank
+5 4
+(47.43, {'dropout')
+minRank, maxRank
+5 4
+(47.43, (47.43, {'dropoutout': 0.1, 'optimizer': 'adagropout': 0.1, 'optimizer': 'ada: 0.1, 'optimizer': 'adam', 'activation': 'elu'{'dropout': 0.1, 'optimizer': 'adam', 'act': ad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 128})
+grad', 'activation': 'elu', 'nbLayers', 'nbLayers': 3, 'nbNeurons': 64})
+ivation': 'elu', 'nbLayers': 3, 'nbNeurons': 64})
+(47.43, {'dropout': 0.4, 'optimizer': 'adadelta', 'activation': 'selu', 'nbLayers': 6, 'nbNeuro: 6, 'nbNeurons': 64})
+ns': 128})
+0.25, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64})
+rank, data, dataPrev
+3 {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64} {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64}
+rank, data, dataPrev
+2 {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64} {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64}
+rank, data, dataPrev
+1 {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64} {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 64}
+rank, data, dataPrev
+0 {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 64} {'dropout': 0.4, 'optimizer': 'adadelta', 'activation': 'selu', 'nbLayers': 6, 'nbNeurons': 128}
+rank, data, dataPrev
+4 {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 128} {'dropout': 0.25, 'optimirank, data, dataPrev
+5 {'dropout': 0.4, 'optimizer': 'adadelta', 'activation': 'selu', 'nbLayers': 6, 'nbNeurons': 128} {'dropout'zer': 'adam', 'activation': 'elu', 'nbL: 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': ayers': 3, 'nbNeurons': 64}
+12, 'nbNeurons': 128}
+bestandpoorest_1
+(3, 44.05)
+bestandpoorest_1
+(1, 47.48)
+bestandpoorest_1
+(2, 47.21)
+bestandpoorest_1
+(0, 45.269999999999996)
+bestandpoorest_1
+(4, 47.43)
+bestandpoorest_1
+(5, 40.81)
+5 checking 40.81
+5 checking 40.81
+5 checking 40.81
+5 checking 40.81
+5 checking 5 checking 40.81
+40.81
+1 checking 47.48
+bestandpoorest_2
+(0, 45.269999999999996)
+((47.48, 1), 1 checking 47.48
+bestandpoorest_2
+(1, 47.48)
+((47.48, 1), (40.81, 5))
+minRank, maxRank
+5 1
+(47.48, {'dropout1 checking 47.48
+bestandpoorest_2
+(2, 47.21)
+((47.48, 1), (40.81, 5))
+minRank, maxRank
+5 1
+(47.48, {'dr1 checking 47.48
+bestandpoorest_2
+(3, 44.05)
+((47.48, 1), (40.81, 5))
+minRank, maxRank
+5 1
+(47.48, {'dropout': 0.25, 'optimizer': 'adam', 'activation1 checking 47.48
+bestandpoorest_2
+(4, 47.43)
+((47.48, 1), (40.81, 5))
+minRank, maxRank
+5 1
+(47.48, {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 128})
+1 checking 47.48
+bestandpoorest_2
+(5, 40.81)
+((47.48, 1), (40.81, 5))
+minRank, maxRank
+5 1
+(40.81, 5))
+minRank, maxRank
+5 1
+(47.48, {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 64})
+': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64})
+opout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64})
+': 'elu', 'nbLayers': 3, 'nbNeurons': 64})
+(47.48, {'dropout': 0.1, 'optimizer': 'sgd', 'activation': 'relu', 'nbLayers': 12, 'nbNeurons': 64})
+rank, data, dataPrev
+1 {'dropout': 0.1, 'optimizrank, data, dataPrev
+2 {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64} {'dropout': 0.1, 'optimer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64} {'dropout': 0.1, 'optimizer': 'adagrad', 'aizer': 'adam', 'activation': 'elu', 'nbLayectivation': 'elu', 'nbLayers': rs': 3, 'nbNeurons': 64}
+6, 'nbNeurons': 64}
+rank, data, dataPrev
+3 {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64} {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64}
+rank, data, dataPrev
+4 {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 128} {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64}
+rank, data, dataPrev
+0 {'dropout': 0.1, 'optimrank, data, dataPrev
+5 {'dropout': 0.1, 'optimizer': 'sgd', 'activation': 'relu', 'nbLayers': 12, 'nbNeurons': 64} {'izer': 'adagrad', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 64} {'dropout': 0.1, 'optimizer': 'sgd', 'activation': 'redropout': 0.1, 'optimizer': 'adagralu', 'nbLayers': 12, 'nbNeurons': 64}
+d', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 128}
+bestandpoorest_1
+(2, 47.21)
+bestandpoorest_1
+(3, 44.34)
+bestandpoorest_1
+(1, 47.97)
+bestandpoorest_1
+(0, 45.269999999999996)
+bestandpoorest_1
+(4, 47.43)
+bestandpoorest_1
+(5, 43.51)
+5 checking 43.51
+5 checking 43.51
+5 checking 43.51
+5 checking 5 checking 43.51
+43.51
+5 checking 43.51
+1 checking 47.97
+bestandpoorest_2
+(0, 45.269999999999996)
+((47.97, 11 checking 47.97
+bestandpoorest_2
+(2, 47.21)
+((47.97, 1), (43.51, 5))
+minRank, maxRank
+5 1
+1 checking 47.97
+bestandpoorest_2
+(3, 44.34)
+((47.97, 1), (43.51, 5))
+minRank, maxRank
+5 1
+1 checking 47.97
+bestandpoorest_2
+(4, 47.43)
+((47.97, 1), (43.51, 5))
+minRank, maxRank
+5 1
+(47.97, {'dro1 checking 47.97
+bestandpoorest_2
+(5, 43.51)
+((47.97, 1), (43.51, 5))
+minRank, maxRank
+5 1
+), (43.51, 5))
+minRank, maxRank
+5 1
+(47.97, {'dropout': 0.1, 'optimizer': 'adagrad', 'activat(47.97, {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayer(47.97, {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64})
+pout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 128})
+ion': 'elu', 'nbLayers': 6, 'nbNeurons': 64})
+s': 3, 'nbNeurons': 64})
+(47.97, {'dropout': 0.25, 'optimizer': 'nadam', 'activation': 'hard_sigmoid', 'nbLayers': 6, 'nbNeurons': 32})
+1 checking 47.97
+bestandpoorest_2
+(1, 47.97)
+((47.97, 1), (43.51, 5))
+minRank, maxRank
+5 1
+(47.97, {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64})
+rank, data, dataPrev
+2 {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64} {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64}
+rank, data, dataPrev
+0 {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 6, 'nbNeuronrank, data, dataPrev
+1 {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLas': 64} {'dropout': 0.25, 'optimyers': 3, 'nbNeurons': 64} {'dizer': 'nadam', 'activation': 'hardropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', '_sigmoid', 'nbLayers': 6, 'nbNeurons': 32}
+nbLayers': 6, 'nbNeurons': 64}
+rank, data, dataPrev
+3 {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64} {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64}
+rank, data, dataPrev
+4 {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 128} {'dropout': 0.25, 'optimrank, data, dataPrev
+5 {'dropout': izer': 'adam', 'activation': 'elu', 'nbLayers'0.25, 'optimizer': 'nadam', 'activation': 'har: 3, 'nbNeurons': 64}
+d_sigmoid', 'nbLayers': 6, 'nbNeurons': 32} {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 128}
+bestandpoorest_1
+(4, 47.43)
+bestandpoorest_1
+(0, 45.59)
+bestandpoorest_1
+(3, 44.34)
+bestandpoorest_1
+(2, 47.21)
+bestandpoorest_1
+(1, 47.97)
+bestandpoorest_1
+(5, 43.51)
+5 checking 43.51
+5 checking 43.51
+5 checking 43.51
+5 checking 43.51
+5 checking 43.51
+5 checking 43.51
+1 checking 47.97
+bestandpoorest_2
+(0, 45.59)
+((1 checking 47.97
+bestandpoorest_2
+(1, 47.97)
+((47.97, 1), (43.51, 5))
+1 checking 47.97
+bestandpoorest_2
+(2, 47.21)
+((47.97, 1), (43.51, 5))
+minRank, maxRank
+5 1
+1 checking 47.97
+bestandpoorest_2
+(3, 44.34)
+((47.97, 1), (43.51, 5))
+minRank, maxRank
+5 1
+1 checking 47.97
+bestandpoorest_2
+(4, 47.43)
+((47.97, 1), (43.51, 5))
+minRank, maxRank
+5 1
+(47.97, {'dropout': 1 checking 47.97
+bestandpoorest_2
+(5, 43.51)
+((47.97, 1), (43.51, 5))
+minRank, maxRank
+5 1
+47.97, 1), (43.51, 5))
+minRank, maxRank
+5 1
+(47.97, {'dropout': 0.1, 'optimizeminRank, maxRank
+5 1
+(47.97, {'dropout': 0.1, 'opti(47.97, {'dropout': 0.1, 'optimizer': 'adam'(47.97, {'dropout0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurr': 'adagrad', 'activation': 'elu', 'nbLayers': 6, 'nbNeurmizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64, 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64})
+': 0.25, 'optimizer': 'adam', 'activation': 'elons': 128})
+(47.97, {'dropout': 0.1, 'optimizer': 'adagrad', 'actons': 64})
+})
+u', 'nbLayers': 3, 'nbNeurons': 64})
+ivation': 'tanh', 'nbLayers': 3, 'nbNeurons': 128})
+rank, data, dataPrev
+2 {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64} {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64}
+rank, data, dataPrev
+3 {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64} {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64}
+rank, data, dataPrev
+1 {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64} {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 64}
+rank, data, dataPrev
+0 {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 64} {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'tanh', 'nbLayers': 3, 'nbNeurons': 128}
+rank, data, dataPrev
+4 {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 128} {'dropout': 0.25rank, data, dataPrev
+5 {'dropout': 0.1, 'optimizer': 'adagrad', 'activat, 'optimizer': 'adam', 'activation'ion': 'tanh', 'nbLayers': 3, 'nbNeurons': 128}: 'elu', 'nbLayers': 3, 'nbNeuro {'dropout': 0.1, 'optimizer': 'adagrad', ns': 64}
+'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 128}
+bestandpoorest_1
+(2, 47.21)
+bestandpoorest_1
+(0, 45.59)
+bestandpoorest_1
+(3, 44.34)
+bestandpoorest_1
+(1, 47.97)
+bestandpoorest_1
+(4, 47.43)
+bestandpoorest_1
+(5, 43.51)
+5 checking 43.51
+5 checking 43.51
+5 checking 43.51
+5 checking 43.51
+5 checking 43.51
+5 checking 43.51
+1 checking 47.97
+bestandpoorest_2
+(0, 45.59)
+1 checking 47.97
+bestandpoorest_2
+(1, 47.97)
+((47.97, 1), (43.51, 5))
+1 checking 47.97
+bestandpoorest_2
+(2, 47.21)
+((47.97, 1), (43.51, 51 checking 47.97
+bestandpoorest_2
+(3, 44.34)
+((47.97, 1), (43.51, 5))
+minRank, maxRank
+51 checking 47.97
+bestandpoorest_2
+(4, 47.43)
+((47.97, 1), (43.51, 5))
+minRank, maxRank
+5 1
+(47.97, 1 checking 47.97
+bestandpoorest_2
+(5, 43.51)
+((47.97, 1), (43.51, 5))
+minRank, maxRank
+5 1
+((47.97, 1), (43.51, 5))
+minRank, maxRank
+5 1
+(47.97, {'dropominRank, maxRank
+5 1
+(47.97, {'dropout': ))
+minRank, maxRank
+5 1
+(47.97, { 1
+(47.97, {'d{'dropout': 0.1, 'optimizut': 0.1, 'optimi0.1, 'optimizer': 'a'dropout': 0.1, 'ropout': 0.25, 'oer': 'adagrad', 'activatiozer': 'adagrad', 'activation': 'elu', 'nbLayers': 6, dam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64})
+optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons'ptimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64})
+n': 'elu', 'nbLayers': 12, 'nbNeurons': 128})
+'nbNeurons': 64})
+: 64})
+(47.97, {'dropout': 0.5, 'optimizer': 'adam', 'activation': 'hard_sigmoid', 'nbLayers': 9, 'nbNeurons': 4})
+rank, data, dataPrev
+2 {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64} {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64}
+rank, data, dataPrev
+3 {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64} {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64}
+rank, data, dataPrev
+0 {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 64} rank, data, dataPrev
+1 {'dr{'dropout': 0.5, 'optimizer': 'adamopout': 0.1, 'optimizer': '', 'activation': 'hard_sigmoiadam', 'activation': 'elu', 'nbLad', 'nbLayers': 9, 'nbNeurons'yers': 3, 'nbNeurons': 64} {'dr: 4}
+opout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 64}
+rank, data, dataPrev
+4 {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 128} {'dropout': 0.25, 'optimizrank, data, dataPrev
+5 {'dropout': 0.5, 'optimizer': 'adam', 'activation': 'harer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurod_sigmoid', 'nbLayers': 9, 'nbNeurons': 4} {'dropout': 0.1, 'optimns': 64}
+izer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 128}
+bestandpoorest_1
+(2, 47.21)
+bestandpoorest_1
+(1, 47.97)
+bestandpoorest_1
+(3, 46.56)
+bestandpoorest_1
+(0, 45.59)
+bestandpoorest_1
+(5, 43.51)
+bestandpoorest_1
+(4, 47.43)
+5 checking 43.51
+5 checking 43.51
+5 checking 43.515 checking 43.51
+
+5 checking 43.51
+5 checking 43.51
+1 checking 47.97
+bestandpoorest_2
+1 checking 47.97
+bestandpoorest_2
+(1, 47.97)
+((47.97, 1), (43.51, 51 checking 47.97
+bestandpoorest_2
+(4, 47.43)
+((47.97, 1), (43.51, 5))
+minRank, maxRank
+(0, 45.59)
+((47.97, 1), (43.51, 5))
+minRank, maxRank
+5 1
+(47.97, {))
+minRank, maxRank
+5 1
+(47.97, {'dropout': 1 checking 47.97
+bestandpoorest_2
+(2, 47.21)
+((47.97, 1), (43.51, 5))
+minRank, maxRank
+5 1
+(47.97, {'d1 checking 47.97
+bestandpoorest_2
+(3, 46.56)
+((47.97, 1), (43.51, 5))
+minRank, maxRank
+5 1
+(47.97, {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64})
+5 1
+(47.97, {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 128})
+1 checking 47.97
+bestandpoorest_2
+(5, 43.51)
+((47.97, 1), (43.51, 5))
+minRank, maxRank
+5 1
+'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 64})
+0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64})
+ropout': (47.97, {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'sigmoid', 'nbLayers': 12, 'nbNeurons': 4})
+0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64})
+rank, data, dataPrev
+2 {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64} {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64}
+rank, data, dataPrev
+0 {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 64} {'dropout': 0.1, 'optimizer': 'adamrank, data, dataPrev
+1 {'d', 'activation': 'sigmoid', 'nbLropout': 0.1, 'optimizer'ayers': 12, 'nbNeurons': 4}
+: 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64} {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 64}
+rank, data, dataPrev
+3 {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64} {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64}
+rank, data, dataPrev
+4 {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 128} {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'rank, data, dataPrev
+5 {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'sigmoid', 'nbLayers': 12, 'nbNeurons': 4} {'dropout': nbLayers': 3, 'nbNeurons': 64}
+0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 128}
+bestandpoorest_1
+(5, 43.51)
+bestandpoorest_1
+(1, 47.97)
+bestandpoorest_1
+(2, 47.21)
+bestandpoorest_1
+(3, 46.56)
+bestandpoorest_1
+(0, 45.59)
+bestandpoorest_1
+(4, 47.43)
+5 checking 43.51
+5 checking 43.51
+5 checking 43.51
+5 checking5 checking  43.51
+5 checking 43.51
+43.51
+1 checking 47.97
+bestandpoorest_2
+(1 checking 47.97
+bestandpoorest_2
+(1, 47.97)
+((47.97, 1), (43.51, 5)1 checking 47.97
+bestandpoorest_2
+(2, 47.21)
+((47.97, 1), (43.51, 5))
+minRank, maxRank
+5 1
+1 checking 47.97
+bestandpoorest_2
+(3, 46.56)
+((47.97, 1), (43.51, 5))
+minRank, maxRank
+5 1
+1 checking 47.97
+bestandpoorest_2
+(4, 47.43)
+((47.97, 1), (43.51, 5))
+minRank, maxRank
+5 1
+(47.97, {'dropout': 0.1, 'optimizer'1 checking 47.97
+bestandpoorest_2
+(5, 43.51)
+((47.97, 1), (43.51, 5))
+minRank, maxRank
+5 1
+0, 45.59)
+((47.97, 1), (43.51, 5))
+minRank, maxRank
+5 1
+(47.97, {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons')
+minRank, maxRank
+5 1
+(47.97, {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64}(47.97, {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64})
+(47.97, {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64})
+: 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 128})
+: 64})
+)
+(47.97, {'dropout': 0.4, 'optimizer': 'nadam', 'activation': 'hard_sigmoid', 'nbLayers': 1, 'nbNeurons': 64})
+rank, data, dataPrev
+3 {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64} {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64}
+rank, data, dataPrev
+2 {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64} {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64}
+rank, data, dataPrev
+0 {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 64} {'dropout': 0.4, 'optimizer': 'nadam', 'activation': 'hard_sigmoid', 'nbLayers': 1, 'nbNeurons': 64}
+rank, data, dataPrev
+1 {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64} {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 64}
+rank, data, dataPrev
+4 {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 128} {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64}
+rank, data, dataPrev
+5 {'dropout': 0.4, 'optimizer': 'nadam', 'activation': 'hard_sigmoid', 'nbLayers': 1, 'nbNeurons': 64} {'dropout': 0.1, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 128}
+bestandpoorest_1
+(0, 45.59)
+bestandpoorest_1
+(2, 47.21)
+bestandpoorest_1
+(1, 47.97)
+bestandpoorest_1
+(3, 46.56)
+bestandpoorest_1
+(4, 47.43)
+bestandpoorest_1
+(5, 43.51)
+5 checking 43.51
+5 checking 43.51
+5 checking 43.51
+5 checking 43.51
+5 checking 43.515 checking 43.51
+
+1 checking 47.97
+bestandpoorest_2
+(0, 45.59)
+1 checking 47.97
+bestandpoorest_2
+(1, 47.97)
+((47.97, 1), (43.51, 5))
+minRank, maxRank
+5 1
+(1 checking 47.97
+bestandpoorest_2
+(2, 47.21)
+((47.97, 1), (43.51, 5))
+minRank, maxRank
+5 1
+(47.97, 1 checking 47.97
+bestandpoorest_2
+(4, 47.43)
+((47.97, 1), (43.51, 5))
+minRank, maxRank
+5 1
+(47.97, {'dropout': 1 checking 47.97
+bestandpoorest_2
+(5, 43.51)
+((47.97, 1), (43.51, 5))
+minRank, maxRank
+5 1
+((47.97, 1), (43.51, 5))
+minRank, maxRank
+5 1
+(47.97, {'dropout': 47.97, {'dropout': 0.1, 'optimizer': 'adam', 'activation': '{'dropout': 0.1, 'optimizer': 'adam', 'activatio0.1, 'optimizer': 'adagrad', 'activation': 0.1, 'optimizer': 'adagrad'elu', 'nbLayers': 3, 'nbNeurn': 'elu', 'nbLayers': 3, ''elu', 'nbLayers': 12, 'nbNeurons': 128})
+, 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 64})
+ons': 64})
+nbNeurons': 64})
+(47.97, {'dropout': 0.25, 'optimizer': 'sgd', 'activation': 'sigmoid', 'nbLayers': 1, 'nbNeurons': 64})
+1 checking 47.97
+bestandpoorest_2
+(3, 46.56)
+((47.97, 1), (43.51, 5))
+minRank, maxRank
+5 1
+(47.97, {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 64})

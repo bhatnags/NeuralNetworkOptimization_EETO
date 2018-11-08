@@ -1,0 +1,75 @@
+Using TensorFlow backend.
+2018-11-03 16:51:13.114814: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+
+
+###############################################################################
+TCHPC Cluster: boyle
+Job 29010 (qtest) for User 'bhatnags' in Account 'mschpc'
+Finished at: Sat Nov  3 18:04:05 GMT 2018
+
+Job completion status:
+======================
+
+       JobID    JobName AllocCPUS NTasks NNodes     MaxRSS    MaxRSSNode  MaxDiskRead MaxDiskWrite    Elapsed      State ExitCode 
+------------ ---------- --------- ------ ------ ---------- ------------- ------------ ------------ ---------- ---------- -------- 
+29010             qtest        28             1                                                      01:12:58    RUNNING      0:0 
+29010.batch       batch        28      1      1  11073796K    boyle-n011        0.01M            0   01:12:58  COMPLETED      0:0 
+
+
+Job details:
+============
+
+JobId=29010 JobName=qtest
+   UserId=bhatnags(1460) GroupId=bhatnags(1106) MCS_label=N/A
+   Priority=880190 Nice=0 Account=mschpc QOS=normal
+   JobState=COMPLETING Reason=None Dependency=(null)
+   Requeue=0 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   DerivedExitCode=0:0
+   RunTime=01:12:58 TimeLimit=10:00:00 TimeMin=N/A
+   SubmitTime=2018-11-03T16:51:07 EligibleTime=2018-11-03T16:51:07
+   StartTime=2018-11-03T16:51:07 EndTime=2018-11-03T18:04:05 Deadline=N/A
+   PreemptTime=None SuspendTime=None SecsPreSuspend=0
+   Partition=compute AllocNode:Sid=boyle01:13413
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=
+   BatchHost=boyle-n011
+   NumNodes=1 NumCPUs=28 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   TRES=cpu=28,mem=63000M,node=1
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+     Nodes=boyle-n011 CPU_IDs=0-27 Mem=63000 GRES_IDX=
+   MinCPUsNode=1 MinMemoryNode=63000M MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   Gres=(null) Reservation=(null)
+   OverSubscribe=NO Contiguous=0 Licenses=(null) Network=(null)
+   Command=/home/users/mschpc/2017/bhatnags/revisited/QuantumGeneticsInspiredNeuralNetworkTuning/src/four/bashscript.sh
+   WorkDir=/home/users/mschpc/2017/bhatnags/revisited/QuantumGeneticsInspiredNeuralNetworkTuning/src/four
+   StdErr=/home/users/mschpc/2017/bhatnags/revisited/QuantumGeneticsInspiredNeuralNetworkTuning/src/four/slurm-29010.out
+   StdIn=/dev/null
+   StdOut=/home/users/mschpc/2017/bhatnags/revisited/QuantumGeneticsInspiredNeuralNetworkTuning/src/four/slurm-29010.out
+   Power=
+
+
+Disk quota details:
+===================
+
+Disk quotas for user bhatnags (uid 1460): none
+
+
+SLURM Bank Statement:
+=====================
+
+User           Usage |        Account     Usage | Account Limit Available (CPU hrs)
+---------- --------- + -------------- --------- + ------------- ---------
+bhatnags       5,591 |         MSCHPC     5,591 |             0       N/A
+
+
+Acknowledgements:
+=================
+
+Note that usage of TCHPC Resources *must* be acknowledged in all publications.
+
+Please see this page for details relevant to this cluster:
+
+http://www.tchpc.tcd.ie/resources/acknowledgementpolicy
+
+################################################################################

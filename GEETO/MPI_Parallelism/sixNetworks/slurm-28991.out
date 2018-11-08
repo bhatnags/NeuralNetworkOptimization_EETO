@@ -1,0 +1,86 @@
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+2018-11-02 18:12:00.885414: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-11-02 18:12:01.102119: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-11-02 18:12:01.814459: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-11-02 18:12:01.955586: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-11-02 18:12:02.091761: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-11-02 18:12:02.149024: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+
+
+###############################################################################
+TCHPC Cluster: boyle
+Job 28991 (par) for User 'bhatnags' in Account 'mschpc'
+Finished at: Fri Nov  2 19:23:47 GMT 2018
+
+Job completion status:
+======================
+
+       JobID    JobName AllocCPUS NTasks NNodes     MaxRSS    MaxRSSNode  MaxDiskRead MaxDiskWrite    Elapsed      State ExitCode 
+------------ ---------- --------- ------ ------ ---------- ------------- ------------ ------------ ---------- ---------- -------- 
+28991               par        28             1                                                      01:11:50  COMPLETED      0:0 
+28991.batch       batch        28      1      1      4856K    boyle-n026        0.01M            0   01:11:50  COMPLETED      0:0 
+28991.0      hydra_pmi+         1      1      1  20451436K    boyle-n026        0.08M        0.13M   01:11:50  COMPLETED      0:0 
+
+
+Job details:
+============
+
+JobId=28991 JobName=par
+   UserId=bhatnags(1460) GroupId=bhatnags(1106) MCS_label=N/A
+   Priority=920053 Nice=0 Account=mschpc QOS=normal
+   JobState=COMPLETING Reason=None Dependency=(null)
+   Requeue=0 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   DerivedExitCode=0:0
+   RunTime=01:11:50 TimeLimit=03:15:00 TimeMin=N/A
+   SubmitTime=2018-11-02T18:11:57 EligibleTime=2018-11-02T18:11:57
+   StartTime=2018-11-02T18:11:57 EndTime=2018-11-02T19:23:47 Deadline=N/A
+   PreemptTime=None SuspendTime=None SecsPreSuspend=0
+   Partition=compute AllocNode:Sid=boyle01:18019
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=
+   BatchHost=boyle-n026
+   NumNodes=1 NumCPUs=28 NumTasks=6 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   TRES=cpu=28,mem=63000M,node=1
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+     Nodes=boyle-n026 CPU_IDs=0-27 Mem=63000 GRES_IDX=
+   MinCPUsNode=1 MinMemoryNode=63000M MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   Gres=(null) Reservation=(null)
+   OverSubscribe=NO Contiguous=0 Licenses=(null) Network=(null)
+   Command=/home/users/mschpc/2017/bhatnags/revisited/ParallelGeneticsInspiredNeuralNetworkTuning/src/six/bashscript.sh
+   WorkDir=/home/users/mschpc/2017/bhatnags/revisited/ParallelGeneticsInspiredNeuralNetworkTuning/src/six
+   StdErr=/home/users/mschpc/2017/bhatnags/revisited/ParallelGeneticsInspiredNeuralNetworkTuning/src/six/slurm-28991.out
+   StdIn=/dev/null
+   StdOut=/home/users/mschpc/2017/bhatnags/revisited/ParallelGeneticsInspiredNeuralNetworkTuning/src/six/slurm-28991.out
+   Power=
+
+
+Disk quota details:
+===================
+
+Disk quotas for user bhatnags (uid 1460): none
+
+
+SLURM Bank Statement:
+=====================
+
+User           Usage |        Account     Usage | Account Limit Available (CPU hrs)
+---------- --------- + -------------- --------- + ------------- ---------
+bhatnags       4,600 |         MSCHPC     4,600 |             0       N/A
+
+
+Acknowledgements:
+=================
+
+Note that usage of TCHPC Resources *must* be acknowledged in all publications.
+
+Please see this page for details relevant to this cluster:
+
+http://www.tchpc.tcd.ie/resources/acknowledgementpolicy
+
+################################################################################

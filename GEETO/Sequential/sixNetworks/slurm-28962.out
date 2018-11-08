@@ -1,0 +1,100 @@
+Using TensorFlow backend.
+2018-11-02 13:34:16.673388: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+(10.0, {0: {'dropout': 0.3, 'optimizer': 'adam', 'activation': 'hard_sigmoid', 'nbLayers': 15, 'nbNeurons': 64}, 1: {'dropout': 0.5, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 4}, 2: {'dropout': 0.5, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 4}, 3: {'dropout': 0.5, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 4}, 4: {'dropout': 0.5, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 4}, 5: {'dropout': 0.5, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 4}})
+(10.0, {0: {'dropout': 0.1, 'optimizer': 'nadam', 'activation': 'relu', 'nbLayers': 12, 'nbNeurons': 8}, 1: {'dropout': 0.5, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 4}, 2: {'dropout': 0.5, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 4}, 3: {'dropout': 0.5, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 4}, 4: {'dropout': 0.5, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 4}, 5: {'dropout': 0.5, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 4}})
+(18.67, {0: {'dropout': 0.2, 'optimizer': 'adadelta', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 64}, 1: {'dropout': 0.5, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 4}, 2: {'dropout': 0.5, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 4}, 3: {'dropout': 0.5, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 4}, 4: {'dropout': 0.5, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 128}, 5: {'dropout': 0.5, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 128}})
+(18.67, {0: {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'hard_sigmoid', 'nbLayers': 1, 'nbNeurons': 128}, 1: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 64}, 2: {'dropout': 0.5, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 4}, 3: {'dropout': 0.5, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 4}, 4: {'dropout': 0.5, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 128}, 5: {'dropout': 0.5, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 128}})
+(18.67, {0: {'dropout': 0.4, 'optimizer': 'adagrad', 'activation': 'hard_sigmoid', 'nbLayers': 6, 'nbNeurons': 64}, 1: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 64}, 2: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 4}, 3: {'dropout': 0.5, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 4}, 4: {'dropout': 0.5, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 128}, 5: {'dropout': 0.5, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 128}})
+(44.0, {0: {'dropout': 0.5, 'optimizer': 'adam', 'activation': 'selu', 'nbLayers': 1, 'nbNeurons': 4}, 1: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 64}, 2: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 4}, 3: {'dropout': 0.5, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 4}, 4: {'dropout': 0.5, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 128}, 5: {'dropout': 0.5, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 128}})
+(45.839999999999996, {0: {'dropout': 0.4, 'optimizer': 'sgd', 'activation': 'sigmoid', 'nbLayers': 3, 'nbNeurons': 4}, 1: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 64}, 2: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 64}, 3: {'dropout': 0.5, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 4}, 4: {'dropout': 0.5, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 128}, 5: {'dropout': 0.5, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 128}})
+(45.839999999999996, {0: {'dropout': 0.5, 'optimizer': 'nadam', 'activation': 'tanh', 'nbLayers': 12, 'nbNeurons': 128}, 1: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 64}, 2: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 64}, 3: {'dropout': 0.5, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 4}, 4: {'dropout': 0.5, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 128}, 5: {'dropout': 0.5, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 128}})
+(45.839999999999996, {0: {'dropout': 0.1, 'optimizer': 'adam', 'activation': 'tanh', 'nbLayers': 9, 'nbNeurons': 128}, 1: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 128}, 2: {'dropout': 0.25, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 128}, 3: {'dropout': 0.5, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 128}, 4: {'dropout': 0.5, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 128}, 5: {'dropout': 0.5, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 128}})
+(46.739999999999995, {0: {'dropout': 0.5, 'optimizer': 'adamax', 'activation': 'selu', 'nbLayers': 6, 'nbNeurons': 32}, 1: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 128}, 2: {'dropout': 0.25, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 128}, 3: {'dropout': 0.25, 'optimizer': 'adamax', 'activation': 'selu', 'nbLayers': 9, 'nbNeurons': 128}, 4: {'dropout': 0.25, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 64}, 5: {'dropout': 0.5, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 128}})
+(46.739999999999995, {0: {'dropout': 0.5, 'optimizer': 'sgd', 'activation': 'sigmoid', 'nbLayers': 1, 'nbNeurons': 4}, 1: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 128}, 2: {'dropout': 0.25, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 128}, 3: {'dropout': 0.25, 'optimizer': 'adamax', 'activation': 'selu', 'nbLayers': 9, 'nbNeurons': 128}, 4: {'dropout': 0.1, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 128}, 5: {'dropout': 0.5, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 128}})
+(47.54, {0: {'dropout': 0.3, 'optimizer': 'sgd', 'activation': 'hard_sigmoid', 'nbLayers': 15, 'nbNeurons': 128}, 1: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 128}, 2: {'dropout': 0.25, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 128}, 3: {'dropout': 0.25, 'optimizer': 'adamax', 'activation': 'selu', 'nbLayers': 6, 'nbNeurons': 128}, 4: {'dropout': 0.1, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 128}, 5: {'dropout': 0.1, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 128}})
+(47.54, {0: {'dropout': 0.4, 'optimizer': 'adam', 'activation': 'tanh', 'nbLayers': 15, 'nbNeurons': 8}, 1: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 128}, 2: {'dropout': 0.25, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 128}, 3: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 128}, 4: {'dropout': 0.1, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 128}, 5: {'dropout': 0.1, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 128}})
+(48.44, {0: {'dropout': 0.25, 'optimizer': 'nadam', 'activation': 'relu', 'nbLayers': 15, 'nbNeurons': 64}, 1: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 128}, 2: {'dropout': 0.25, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 128}, 3: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 128}, 4: {'dropout': 0.1, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 128}, 5: {'dropout': 0.1, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 128}})
+(48.44, {0: {'dropout': 0.25, 'optimizer': 'adagrad', 'activation': 'tanh', 'nbLayers': 15, 'nbNeurons': 128}, 1: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 128}, 2: {'dropout': 0.25, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 128}, 3: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 128}, 4: {'dropout': 0.1, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 128}, 5: {'dropout': 0.1, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 128}})
+(48.75, {0: {'dropout': 0.4, 'optimizer': 'adadelta', 'activation': 'relu', 'nbLayers': 12, 'nbNeurons': 16}, 1: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 128}, 2: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 128}, 3: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 128}, 4: {'dropout': 0.1, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 128}, 5: {'dropout': 0.1, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 128}})
+(48.75, {0: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'sigmoid', 'nbLayers': 6, 'nbNeurons': 32}, 1: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 128}, 2: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 128}, 3: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 128}, 4: {'dropout': 0.1, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 128}, 5: {'dropout': 0.1, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 128}})
+(48.75, {0: {'dropout': 0.3, 'optimizer': 'adadelta', 'activation': 'hard_sigmoid', 'nbLayers': 15, 'nbNeurons': 128}, 1: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 128}, 2: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 128}, 3: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 128}, 4: {'dropout': 0.1, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 128}, 5: {'dropout': 0.1, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 128}})
+(48.75, {0: {'dropout': 0.1, 'optimizer': 'adadelta', 'activation': 'tanh', 'nbLayers': 9, 'nbNeurons': 32}, 1: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 128}, 2: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 128}, 3: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 128}, 4: {'dropout': 0.1, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 128}, 5: {'dropout': 0.1, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 128}})
+(48.75, {0: {'dropout': 0.5, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 16}, 1: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 128}, 2: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 128}, 3: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 128}, 4: {'dropout': 0.1, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 128}, 5: {'dropout': 0.1, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 128}})
+(48.75, {0: {'dropout': 0.3, 'optimizer': 'adadelta', 'activation': 'tanh', 'nbLayers': 9, 'nbNeurons': 128}, 1: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 128}, 2: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 128}, 3: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 128}, 4: {'dropout': 0.1, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 128}, 5: {'dropout': 0.1, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 128}})
+(48.75, {0: {'dropout': 0.4, 'optimizer': 'nadam', 'activation': 'tanh', 'nbLayers': 9, 'nbNeurons': 4}, 1: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 128}, 2: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 128}, 3: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 128}, 4: {'dropout': 0.1, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 128}, 5: {'dropout': 0.1, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 128}})
+(48.75, {0: {'dropout': 0.25, 'optimizer': 'sgd', 'activation': 'sigmoid', 'nbLayers': 9, 'nbNeurons': 32}, 1: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 128}, 2: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 128}, 3: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 128}, 4: {'dropout': 0.1, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 128}, 5: {'dropout': 0.1, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 128}})
+(48.75, {0: {'dropout': 0.4, 'optimizer': 'nadam', 'activation': 'tanh', 'nbLayers': 9, 'nbNeurons': 4}, 1: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 128}, 2: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 128}, 3: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 128}, 4: {'dropout': 0.1, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 128}, 5: {'dropout': 0.1, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 128}})
+(48.75, {0: {'dropout': 0.2, 'optimizer': 'adadelta', 'activation': 'hard_sigmoid', 'nbLayers': 9, 'nbNeurons': 64}, 1: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 128}, 2: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 128}, 3: {'dropout': 0.2, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 128}, 4: {'dropout': 0.1, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 128}, 5: {'dropout': 0.1, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 1, 'nbNeurons': 128}})
+
+
+###############################################################################
+TCHPC Cluster: boyle
+Job 28962 (test) for User 'bhatnags' in Account 'mschpc'
+Finished at: Sat Nov  3 01:18:22 GMT 2018
+
+Job completion status:
+======================
+
+       JobID    JobName AllocCPUS NTasks NNodes     MaxRSS    MaxRSSNode  MaxDiskRead MaxDiskWrite    Elapsed      State ExitCode 
+------------ ---------- --------- ------ ------ ---------- ------------- ------------ ------------ ---------- ---------- -------- 
+28962              test        28             1                                                      11:44:10  COMPLETED      0:0 
+28962.batch       batch        28      1      1  18603832K    boyle-n015        0.01M            0   11:44:10  COMPLETED      0:0 
+
+
+Job details:
+============
+
+JobId=28962 JobName=test
+   UserId=bhatnags(1460) GroupId=bhatnags(1106) MCS_label=N/A
+   Priority=937253 Nice=0 Account=mschpc QOS=normal
+   JobState=COMPLETING Reason=None Dependency=(null)
+   Requeue=0 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   DerivedExitCode=0:0
+   RunTime=11:44:10 TimeLimit=13:00:00 TimeMin=N/A
+   SubmitTime=2018-11-02T13:33:57 EligibleTime=2018-11-02T13:33:57
+   StartTime=2018-11-02T13:34:12 EndTime=2018-11-03T01:18:22 Deadline=N/A
+   PreemptTime=None SuspendTime=None SecsPreSuspend=0
+   Partition=compute AllocNode:Sid=boyle01:18019
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=
+   BatchHost=boyle-n015
+   NumNodes=1 NumCPUs=28 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   TRES=cpu=28,mem=63000M,node=1
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+     Nodes=boyle-n015 CPU_IDs=0-27 Mem=63000 GRES_IDX=
+   MinCPUsNode=1 MinMemoryNode=63000M MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   Gres=(null) Reservation=(null)
+   OverSubscribe=NO Contiguous=0 Licenses=(null) Network=(null)
+   Command=/home/users/mschpc/2017/bhatnags/revisited/GeneticsInspiredNeuralNetworkTuning/src/six/bashscript.sh
+   WorkDir=/home/users/mschpc/2017/bhatnags/revisited/GeneticsInspiredNeuralNetworkTuning/src/six
+   StdErr=/home/users/mschpc/2017/bhatnags/revisited/GeneticsInspiredNeuralNetworkTuning/src/six/slurm-28962.out
+   StdIn=/dev/null
+   StdOut=/home/users/mschpc/2017/bhatnags/revisited/GeneticsInspiredNeuralNetworkTuning/src/six/slurm-28962.out
+   Power=
+
+
+Disk quota details:
+===================
+
+Disk quotas for user bhatnags (uid 1460): none
+
+
+SLURM Bank Statement:
+=====================
+
+User           Usage |        Account     Usage | Account Limit Available (CPU hrs)
+---------- --------- + -------------- --------- + ------------- ---------
+bhatnags       5,317 |         MSCHPC     5,317 |             0       N/A
+
+
+Acknowledgements:
+=================
+
+Note that usage of TCHPC Resources *must* be acknowledged in all publications.
+
+Please see this page for details relevant to this cluster:
+
+http://www.tchpc.tcd.ie/resources/acknowledgementpolicy
+
+################################################################################

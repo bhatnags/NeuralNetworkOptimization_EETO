@@ -1,0 +1,1239 @@
+True
+False
+True
+False
+True
+False
+True
+False
+True
+False
+True
+False
+True
+False
+True
+False
+True
+False
+True
+False
+True
+False
+True
+False
+('loop_1 done', 0, 9)
+('loop_1 done', 0, 2)
+('loop_1 done', 0, 3)
+('loop_1 done', 0, 5)
+('loop_1 done', 0, 1)
+('loop_1 done', 0, 7)
+('loop_1 done', 0, 10)
+('loop_1 done', 0, 0)
+('loop_1 done', 0, 4)
+('loop_1 done', 0, 8)
+('loop_1 done', 0, 6)
+('loop_1 done', 0, 11)
+0 checking 10.0
+0 checking 10.0
+0 checking 10.0
+0 checking 10.0
+0 checking 10.0
+0 checking 10.0
+0 checking 10.0
+0 checking 10.0
+0 checking 10.0
+0 checking 10.0
+0 checking 10.0
+0 checking 10.0
+6 checking 44.39
+6 checking 44.39
+6 checking 44.39
+6 checking 44.39
+6 checking 44.39
+6 checking 44.39
+6 checking 44.39
+6 checking 44.39
+6 checking 44.39
+6 checking 44.39
+6 checking 44.39
+6 checking 44.39
+('loop_6 done', 5)
+(8, 0, 4)
+('loop_6 done', ('loop_6 d10)
+one', 7)
+(4, 8, 0)
+('loop_6 done', 8)
+(0, 4, 8)('loop_6 done', 3)
+('loop_6 done', 6)
+
+('loop_6 done', 0)
+('loop_6 done', 1)
+('loop_6 done', 4)
+('loop_6 done', 2)
+('loop_6 done', 11)
+('loop_6 done', 9)
+('loop_1 done', 1, 9)
+('loop_1 done', 1, 3)
+('loop_1 done', 1, 10)
+('loop_1 done', 1, 7)
+('loop_1 done', 1, 2)
+('loop_1 done', 1, 5)
+('loop_1 done', 1, 1)
+('loop_1 done', 1, 8)
+('loop_1 done', 1, 4)
+('loop_1 done', 1, 6)
+('loop_1 done', 1, 0)
+('loop_1 done', 1, 11)
+0 checking 10.0
+0 checking 10.0
+0 checking 10.0
+0 checking 10.0
+0 checking 10.0
+0 checking 10.0
+0 checking 10.0
+0 checking 10.0
+0 checking 10.0
+0 checking 10.0
+0 checking 10.0
+0 checking 10.0
+6 checking 46.17
+6 checking 46.17
+6 checking 46.17
+6 checking 46.17
+6 checking 46.17
+6 checking 46.17
+6 checking 46.17
+6 checking 46.17
+6 checking 46.17
+6 checking 46.17
+6 checking 46.17
+6 checking 46.17
+('loop_6 done', 10)
+('loop_6 done', 1)
+('loop_6 done', 3)
+('loop_6 done', 2)
+('loop_6 done', 8)
+('loop_6 done', 0)
+('loop_6 done', 5)
+('loop_6 done', 4)
+('loop_6 done', ('loop_6 done', 7)
+9)
+('loop_6 done', 6)
+('loop_6 done', 11)
+('loop_1 done', 2, 3)
+('loop_1 done', 2, 10)
+('loop_1 done', 2, 2)
+('loop_1 done', 2, 9)
+('loop_1 done', 2, 5)
+('loop_1 done', 2, 1)
+('loop_1 done', 2, 4)
+('loop_1 done', 2, 6)
+('loop_1 done', 2, 8)
+('loop_1 done', 2, 0)
+('loop_1 done', 2, 7)
+('loop_1 done', 2, 11)
+8 checking 10.0
+8 checking 10.0
+8 checking 10.0
+8 checking 10.0
+8 checking 10.0
+8 checking 10.0
+8 checking 10.0
+8 checking 10.0
+8 checking 8 checking 10.0
+10.0
+8 checking 10.0
+8 checking 10.0
+6 checking 46.17
+6 checking 46.17
+6 checking 46.17
+6 checking 46.17
+6 checking 46.17
+6 checking 46.17
+6 checking 46.17
+6 checking 46.17
+6 checking 46.17
+6 checking 46.17
+6 checking 46.17
+6 checking 46.17
+('loop_6 done', 5)
+('loop_6 done', 10)
+('loop_6 done', 11)
+('loop_6 done', 3)
+('loop_6 done', 2)
+('loop_6 done', 9)
+('loop_6 done', 4)
+('loop_6 done', 0)
+('loop_6 done', 6)
+('loop_6 done', 7)
+('loop_6 done', 1)
+('loop_6 done', 8)
+('loop_1 done', 3, 0)
+('loop_1 done', 3, 10)
+('loop_1 done', 3, 9)
+('loop_1 done', 3, 2)
+('loop_1 done', 3, 5)
+('loop_1 done', 3, 8)
+('loop_1 done', 3, 3)
+('loop_1 done', 3, 1)
+('loop_1 done', 3, 4)
+('loop_1 done', 3, 6)
+('loop_1 done', 3, 7)
+('loop_1 done', 3, 11)
+8 checking 10.0
+8 checking 10.0
+8 checking 10.0
+8 checking 10.0
+8 checking 10.0
+8 checking 10.0
+8 checking 10.0
+8 checking 10.0
+8 checking 10.0
+8 checking 10.0
+8 checking 10.0
+8 checking 10.0
+6 checking 46.17
+6 checking 46.17
+6 checking 46.17
+6 checking 46.17
+6 checking 46.17
+6 checking 46.17
+6 checking 46.17
+6 checking 46.17
+6 checking 46.17
+6 checking 46.17
+6 checking 46.17
+6 checking 46.17
+('loop_6 done', 10)
+('loop_6 done', 1)
+('loop_6 done', 5)
+('loop_6 done', 4)
+('loop_6 done', 8)
+('loop_6 done', 0)
+('loop_6 done', 2)
+('loop_6 done', 3)
+('loop_6 done', 9)
+('loop_6 done', 7)
+('loop_6 done', 11)('loop_6 done', 
+6)
+('loop_1 done', 4, 9)
+('loop_1 done', 4, 10)
+('loop_1 done', 4, 5)
+('loop_1 done', 4, 0)
+('loop_1 done', 4, 8)
+('loop_1 done', 4, 3)
+('loop_1 done', 4, 2)
+('loop_1 done', 4, 1)
+('loop_1 done', 4, 7)
+('loop_1 done', 4, 6)
+('loop_1 done', 4, 4)
+('loop_1 done', 4, 11)
+1 checking 21.42
+1 checking 21.42
+1 checking 21.42
+1 checking 21.42
+1 checking 21.42
+1 checking 21.42
+1 checking 21.42
+1 checking 21.42
+1 checking 21.42
+1 checking 21.42
+1 checking 21.42
+1 checking 21.42
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+('loop_6 done', 2)
+('loop_6 done', 10)
+('loop_6 done', 6)
+('loop_('lo6 done', 3)
+op_6 done', 7)
+('loop_6 done', 4)
+('loop_6 done', 5)
+('loop_6 done', 9)
+('loop_6 done', 1)
+('loop_6 done', 0)
+('loop_6 done', 8)
+('loop_6 done', 11)
+('loop_1 done', 5, 10)
+('loop_1 done', 5, 9)
+('loop_1 done', 5, 5)
+('loop_1 done', 5, 8)
+('loop_1 done', 5, 2)
+('loop_1 done', 5, 3)
+('loop_1 done', 5, 11)
+('loop_1 done', 5, 0)
+('loop_1 done', 5, 6)
+('loop_1 done', 5, 1)
+('loop_1 done', 5, 7)
+('loop_1 done', 5, 4)
+11 checking 36.24
+11 checking 36.24
+11 checking 36.24
+11 checking 36.24
+11 checking 36.24
+11 checking 36.24
+11 checking 36.24
+11 checking 11 checking 11 checking 36.24
+11 checking 36.24
+36.24
+36.24
+11 checking 36.24
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+('loop_6 done', 5)
+('loop_6 do('loop_6 done', 2)
+ne', 1)
+('loop_6 done', 10)
+('loop_(4, 6 done', 11)
+8, 0)
+('loop_6 done', 9)
+('loop_6 done', 3)
+('loop_6 done', 7)
+('loop_6 done', 6)
+(8, 0, 4)
+(0, 4, 8)
+('loop_6 done', ('loop8)
+('loop_6 done', 0)
+_6 done', 4)
+('loop_1 done', 6, 9)
+('loop_1 done', 6, 10)
+('loop_1 done', 6, 0)
+('loop_1 done', 6, 3)
+('loop_1 done', 6, 5)
+('loop_1 done', 6, 8)
+('loop_1 done', 6, 2)
+('loop_1 done', 6, 7)
+('loop_1 done', 6, 1)
+('loop_1 done', 6, 6)
+('loop_1 done', 6, 4)
+('loop_1 done', 6, 11)
+11 checking 36.24
+11 checking 36.24
+11 checking 36.24
+11 checking 36.24
+11 checking 36.24
+11 checking 36.24
+11 checking 36.24
+11 checking 36.24
+11 checking 11 checking 11 checking 36.24
+11 checking 36.24
+36.24
+36.24
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+('loop_6 done', 8)
+('loop_6 done', 10)
+('loop_6 done', 6)
+('loop_6 don('looe', 9)
+('loop_6 done', 5)
+p_6 done', 7)
+('loop_6 done', 11)
+('loop_6 done', 0)
+('loop_6 done', 1)
+('loop_6 done', 3)
+('loop_6 done', 4)
+('loop_6 done', 2)
+('loop_1 done', 7, 10)
+('loop_1 done', 7, 9)
+('loop_1 done', 7, 3)
+('loop_1 done', 7, 0)
+('loop_1 done', 7, 5)
+('loop_1 done', 7, 2)
+('loop_1 done', 7, 7)
+('loop_1 done', 7, 8)
+('loop_1 done', 7, 1)
+('loop_1 done', 7, 6)
+('loop_1 done', 7, 4)
+('loop_1 done', 7, 11)
+10 checking 37.69
+10 checking 37.69
+10 checking 37.69
+10 checking 37.69
+10 checking 37.69
+10 checking 37.6910 checking 
+10 checking 37.69
+10 checking 37.69
+37.69
+10 checking 37.69
+10 checking 37.69
+10 checking 37.69
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+('loop_6 done', 0)
+('loop_6 done', 5)
+('loop_6 done', 4)
+('loop_6 done', 3)
+('loop_6 done', 11)
+('loop_6 done', 6)
+('loop_6 done', 1)
+('loop_6 done', 8)
+('loop_6 done', 9)
+('loop_6 done', 10)
+('loop_6 done', 7)
+('loop_6 done', 2)
+('loop_1 done', 8, 5)
+('loop_1 done', 8, 9)
+('loop_1 done', 8, 0)
+('loop_1 done', 8, 8)
+('loop_1 done', 8, 10)
+('loop_1 done', 8, 3)
+('loop_1 done', 8, 6)
+('loop_1 done', 8, 2)
+('loop_1 done', 8, 1)
+('loop_1 done', 8, 7)
+('loop_1 done', 8, 11)
+('loop_1 done', 8, 4)
+10 checking 37.69
+10 checking 37.69
+10 checking 37.69
+10 checking 37.69
+10 checking 37.69
+10 checking 37.69
+10 checking10 checking 37.69
+10 checking 37.69
+ 37.69
+10 checking 37.69
+10 checking 37.69
+10 checking 37.69
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+('loop_6 done', 3)
+('loop_6 done', 0)
+('loop_6 done', ('loop_6 done', 6)9)
+
+('loop_6 done', 8)
+('loop_6 done', 2)
+('loop_6 done', 4)
+('loop_6 done', 1)
+('loop_6 done'('loop_6 done', 7)
+, 5)
+('loop_6 do('loop_6 done', 10)
+ne', 11)
+('loop_1 done', 9, 9)
+('loop_1 done', 9, 10)
+('loop_1 done', 9, 5)
+('loop_1 done', 9, 0)
+('loop_1 done', 9, 3)
+('loop_1 done', 9, 2)
+('loop_1 done', 9, 4)
+('loop_1 done', 9, 1)
+('loop_1 done', 9, 6)
+('loop_1 done', 9, 7)
+('loop_1 done', 9, 11)
+('loop_1 done', 9, 8)
+10 checking 37.69
+10 checking 37.69
+10 checking 37.69
+10 checking 37.69
+10 checking 37.69
+10 checking 37.69
+10 checking 37.69
+10 checking 37.69
+10 checking 10 checking 37.69
+37.69
+10 checking 37.69
+10 checking 37.69
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+7 checking 48.86
+('loop_6 done', 0('loop_6 done', 10)
+)
+('loop_6 done', 6)
+('loop_6 ('loop_6 done', 9)
+done', 4)
+('loop_6 done', ('loop_6 done', 8)
+2)
+('loop_6 done', 7)
+('loop_6 done', 5)
+('loop_6 done', 1)
+('loop_6 done', 3)
+('loop_6 done', 11)
+('loop_1 done', 10, 10)
+('loop_1 done', 10, 9)
+('loop_1 done', 10, 0)
+('loop_1 done', 10, 6)
+('loop_1 done', 10, 2)
+('loop_1 done', 10, 5)
+('loop_1 done', 10, 3)
+('loop_1 done', 10, 1)
+('loop_1 done', 10, 7)
+('loop_1 done', 10, 11)
+('loop_1 done', 10, 8)
+('loop_1 done', 10, 4)
+10 checking 38.67
+10 checking 38.67
+10 checking 38.67
+10 checking 38.67
+10 checking 10 checking10 checking 10 checking 38.67
+38.67
+ 38.67
+38.67
+10 checking 10 checking 10 checking 38.67
+10 checking 38.67
+38.67
+38.67
+4 checking 50.29
+4 checking 50.29
+4 checking 50.29
+4 checking 50.29
+4 checking 50.29
+4 checking 50.29
+4 checking 50.29
+4 checking 50.29
+4 checking 50.29
+4 checking 50.29
+4 checking 50.29
+4 checking 50.29
+('loop_6 done', 2)
+(4, 8, 0)
+('loop_6 done', 6)
+('loop_6 done', 9)
+('loop_6 done', 10)
+('loop_6 (0, 4, 8)
+done', 1)
+('loop_6 done', 4)
+(8, 0, 4)
+('loop_6 done', 11)
+('loop_6 done', 0)
+('loop_6 done', 3)
+('loop_6 done', 8)
+('loop_6 done', 5)('loop_6 done', 7)
+
+('loop_1 done', 11, 9)
+('loop_1 done', 11, 2)
+('loop_1 done', 11, 0)
+('loop_1 done', 11, 10)
+('loop_1 done', 11, 7)
+('loop_1 done', 11, 3)
+('loop_1 done', 11, 1)
+('loop_1 done', 11, 6)
+('loop_1 done', 11, 5)
+('loop_1 done', 11, 11)
+('loop_1 done', 11, 8)
+('loop_1 done', 11, 4)
+10 checking 38.67
+10 checking 38.67
+10 checking 38.67
+10 checking 38.67
+10 checking 38.67
+10 checking 38.67
+10 checking 38.67
+10 checking 38.67
+10 checking 38.67
+10 checking 38.67
+10 checking 38.67
+10 checking 38.67
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+('loop_6 done', 3)
+('loop_6 done', 1)
+('loop_6 done', ('loop_6 done', 7)
+('loop_6 done', 8)
+10)
+('loop_6 done', 9)
+('loop_6 do('loop_6 done', ne', 5)
+('loop_6 done', 11)
+2)
+('loop_6 done', 6)
+('loop_6 done', 0)
+('loop_6 done', 4)
+('loop_1 done', 12, 9)
+('loop_1 done', 12, 0)
+('loop_1 done', 12, 2)
+('loop_1 done', 12, 10)
+('loop_1 done', 12, 11)
+('loop_1 done', 12, 3)
+('loop_1 done', 12, 1)
+('loop_1 done', 12, 6)
+('loop_1 done', 12, 8)
+('loop_1 done', 12, 7)
+('loop_1 done', 12, 5)
+('loop_1 done', 12, 4)
+10 checking 38.67
+10 checking 38.67
+10 checking 38.67
+10 checking 38.67
+10 checking 38.67
+10 checking 38.67
+10 checking10 checking 10 checking 38.67
+ 38.67
+38.67
+10 checking 38.67
+10 checking 10 checking 38.67
+38.67
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+('loop_6 done', 4)
+('loop_6 done', 10)
+('loop_6 done', 11)
+('loop_6 done', 2)
+('loop_6 done', 5)
+('loop_6 done', 8)
+('loop_6 done', 6)
+('loop_6 ('loop_6 done', 1)
+('loop_6 done', 3)
+done', 0)
+('loop_6 done', 9)
+('loop_6 done', 7)
+('loop_1 done', 13, 9)
+('loop_1 done', 13, 2)
+('loop_1 done', 13, 0)
+('loop_1 done', 13, 10)
+('loop_1 done', 13, 3)
+('loop_1 done', 13, 7)
+('loop_1 done', 13, 1)
+('loop_1 done', 13, 11)
+('loop_1 done', 13, 6)
+('loop_1 done', 13, 8)
+('loop_1 done', 13, 4)
+('loop_1 done', 13, 5)
+10 checking 38.67
+10 checking 38.67
+10 checking 38.67
+10 checking 38.67
+10 checking 38.67
+10 checking 38.67
+10 checking 38.67
+10 checking 38.67
+10 checking 38.67
+10 checking 38.67
+10 checking 38.67
+10 checking 38.67
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+('loop_6 done', 0)
+('loop_6 done', 3)
+('loop_6 done', 8)
+('loop_6 done', 2)
+('loop_6 d('loop_6 done', 5)
+('loop_6 done', 9)
+one', 1)
+('loop_6 done', ('loop_6 done', 7)
+('loop_6 done', 10)
+4)
+('loop_6 done', 11)
+('loop_6 done', 6)
+('loop_1 done', 14, 9)
+('loop_1 done', 14, 2)
+('loop_1 done', 14, 0)
+('loop_1 done', 14, 10)
+('loop_1 done', 14, 3)
+('loop_1 done', 14, 1)
+('loop_1 done', 14, 6)
+('loop_1 done', 14, 7)
+('loop_1 done', 14, 8)
+('loop_1 done', 14, 11)
+('loop_1 done', 14, 5)
+('loop_1 done', 14, 4)
+9 checking 38.93
+9 checking 38.93
+9 checking 38.93
+9 checking 38.93
+9 checking 38.93
+9 checking 38.93
+9 checking 38.93
+9 checking 38.93
+9 checking 38.93
+9 checking 38.93
+9 checking 38.93
+9 checking 38.93
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+('loop_6 done', 5)
+('loop_6 done', 4)
+('loop_6 done', 8)
+('loop_6 done', 3)('loop_6 done', 1)
+
+('loop_6 done', 6)
+('loop_6 done', 7)
+('loop_6 done', 11)
+('loop_6 done', 2)
+('loop_6 done', 10)
+('loo('loop_6 done', 9)
+p_6 done', 0)
+('loop_1 done', 15, 10)
+('loop_1 done', 15, 0)
+('loop_1 done', 15, 2)
+('loop_1 done', 15, 3)
+('loop_1 done', 15, 11)
+('loop_1 done', 15, 1)
+('loop_1 done', 15, 6)
+('loop_1 done', 15, 8)
+('loop_1 done', 15, 9)
+('loop_1 done', 15, 5)
+('loop_1 done', 15, 4)
+('loop_1 done', 15, 7)
+9 checking 43.37
+9 checking 43.37
+9 checking 43.37
+9 checking 43.37
+9 checking 43.37
+9 checking 43.37
+9 checking 43.37
+9 checking 43.37
+9 checking 43.37
+9 checking 43.37
+9 checking 9 checking 43.37
+43.37
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+('loop_6 done', 10)
+('loop_6 done', 11)
+('loop_6 done', 1)
+('loop_6 done', 5)
+('loop_6 done', 2)
+('loop_6 done', 3)
+(8, 0, 4)
+('loop_6('loop_6 done', 7)
+ done', 6)
+('loop_6 d(4, 8, 0)
+one', 9)
+(0, 4, 8)
+('loop_6 done', 8)
+('loop_6('loo done', 4)
+p_6 done', 0)
+('loop_1 done', 16, 10)
+('loop_1 done', 16, 3)
+('loop_1 done', 16, 2)
+('loop_1 done', 16, 1)
+('loop_1 done', 16, 0)
+('loop_1 done', 16, 9)
+('loop_1 done', 16, 11)
+('loop_1 done', 16, 8)
+('loop_1 done', 16, 5)
+('loop_1 done', 16, 6)
+('loop_1 done', 16, 4)
+('loop_1 done', 16, 7)
+9 checking 43.37
+9 checking 43.37
+9 checking 43.37
+9 checking 43.37
+9 checking 43.37
+9 checking 43.37
+9 checking 43.37
+9 checking 43.37
+9 checking 43.37
+9 checking 43.37
+9 checking 43.37
+9 checking 43.37
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+('loop_6 done', 3)
+('loop_6 done', 4)
+('loop_6 done', 8)
+('loop_6 done('loop_6 done', 9)
+', 0)
+('loop_6 done', 10)
+('loop_6 done', 5)
+('loop_6 done', 1)
+('loop_6 done', 6)
+('loop_6 done', 7)
+('loop_6 done', 11)
+('loop_6 done', 2)
+('loop_1 done', 17, 9)
+('loop_1 done', 17, 3)
+('loop_1 done', 17, 10)
+('loop_1 done', 17, 2)
+('loop_1 done', 17, 0)
+('loop_1 done', 17, 1)
+('loop_1 done', 17, 11)
+('loop_1 done', 17, 8)
+('loop_1 done', 17, 6)
+('loop_1 done', 17, 5)
+('loop_1 done', 17, 4)
+('loop_1 done', 17, 7)
+9 checking 43.37
+9 checking 43.37
+9 checking 43.37
+9 checking 43.37
+9 checking 43.37
+9 checking 43.37
+9 checking 43.37
+9 checking 43.37
+9 checking 43.37
+9 checking 43.37
+9 checking 43.37
+9 checking 43.37
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+4 checking 50.31
+('loop_6 done', 10)
+('loop_6 done', ('loop_6 don9)
+('loop_6 done', 2)
+e', 3)
+('loop_6 done', 6)
+('loop_6 done', 11)
+('loop_6 done', 1)
+('loop_6 done', 5)
+('loop_6 done', 7)
+('loop_6 done', 0)
+('loop_6 done', 4)
+('loop_6 done', 8)
+('loop_1 done', 18, 0)
+('loop_1 done', 18, 10)
+('loop_1 done', 18, 3)
+('loop_1 done', 18, 2)
+('loop_1 done', 18, 9)
+('loop_1 done', 18, 1)
+('loop_1 done', 18, 11)
+('loop_1 done', 18, 4)
+('loop_1 done', 18, 8)
+('loop_1 done', 18, 5)
+('loop_1 done', 18, 6)
+('loop_1 done', 18, 7)
+9 checking 43.37
+9 checking 43.37
+9 checking 9 checking 43.37
+43.37
+9 checking 43.37
+9 checking 43.37
+9 checking 43.37
+9 checking 43.37
+9 checking 43.37
+9 checking 43.37
+9 checking 43.37
+9 checking 43.37
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+('loop_6 done', 2)
+('loop_6 done', 6)
+('loop_6 done', 4)
+('loop_6 done', 1)
+('loop_6 done', 3)
+('loop_6 done', 8)
+('loop_6 done', 10)
+('loop_6 done', 11)
+('loop_6 done', 0)
+('loop_6 done', 9)
+('loop_6 done', 7)
+('loop_6 done', 5)
+('loop_1 done', 19, 10)
+('loop_1 done', 19, 2)
+('loop_1 done', 19, 0)
+('loop_1 done', 19, 3)
+('loop_1 done', 19, 1)
+('loop_1 done', 19, 9)
+('loop_1 done', 19, 11)
+('loop_1 done', 19, 8)
+('loop_1 done', 19, 4)
+('loop_1 done', 19, 6)
+('loop_1 done', 19, 7)
+('loop_1 done', 19, 5)
+9 checking 43.37
+9 checking 43.37
+9 checking 43.37
+9 checking 43.37
+9 checking 43.37
+9 checking 43.37
+9 checking 9 checking 9 checking 43.37
+43.37
+9 checking 43.37
+43.37
+9 checking 43.37
+9 checking 43.37
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+('loop_6 done'('loop_6 done', 2), 10)
+
+('loop_6 done', 8)
+('loop_6 done', 3)
+('loop_6 done', 1)
+('loop_6 done', 4)
+('loop_6 done', 0)
+('loop_6 done', 6)
+('loop_6 done', 9)
+('loop_6 done', 11)
+('loop_6 done', 7)
+('loop_6 done', 5)
+('loop_1 done', 20, 2)
+('loop_1 done', 20, 1)
+('loop_1 done', 20, 3)
+('loop_1 done', 20, 10)
+('loop_1 done', 20, 0)
+('loop_1 done', 20, 11)
+('loop_1 done', 20, 6)
+('loop_1 done', 20, 8)
+('loop_1 done', 20, 7)
+('loop_1 done', 20, 4)
+('loop_1 done', 20, 5)
+('loop_1 done', 20, 9)
+10 checking 44.519999999999996
+10 checking 44.519999999999996
+10 checking 44.519999999999996
+10 checking 44.519999999999996
+10 checking 44.519999999999996
+10 checking 10 checking 44.519999999999996
+44.519999999999996
+10 checking 10 checking 44.519999999999996
+44.519999999999996
+10 checking 44.51999999999999610 checking
+ 10 checking 44.519999999999996
+44.519999999999996
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+('loop_6 done', 2)
+('loop_6 done', 6)
+('loop_6 do('loop_6 done', 1)
+ne', 9)
+('loop_6 done', 5)
+(8, 0, 4)
+('loop_6 done', 3)
+(4, 8, 0)
+('loop_6 don(0, 4, 8)
+e', 8)
+('loop('loop_6 done', 11)
+('loop_6_6 done', 4)
+ done', 0)
+('loop_6 done', 7)
+('loop_6 done', 10)
+('loop_1 done', 21, 2)
+('loop_1 done', 21, 10)
+('loop_1 done', 21, 3)
+('loop_1 done', 21, 0)
+('loop_1 done', 21, 1)
+('loop_1 done', 21, 11)
+('loop_1 done', 21, 9)
+('loop_1 done', 21, 5)
+('loop_1 done', 21, 8)
+('loop_1 done', 21, 4)
+('loop_1 done', 21, 6)
+('loop_1 done', 21, 7)
+10 checking 44.519999999999996
+10 checking 44.519999999999996
+10 checking 44.519999999999996
+10 checking 44.519999999999996
+10 checking 44.519999999999996
+10 checking10 checking 10 checking 44.519999999999996
+ 44.519999999999996
+44.519999999999996
+10 checking 44.519999999999996
+10 checking 44.519999999999996
+10 checking 44.519999999999996
+10 checking 44.519999999999996
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+('loop_6 done', 2)
+('loop_6 done', 5)
+('loop_6 done', 9)
+('loop_6 done', ('loop_6 done', 4)
+0)
+('loop_6 done', 11)
+('loop_6 don('loop_6 done', 1)
+e', 6)
+('loop_6 done', 3)
+('loop_6 done', 10)
+('loop_6 done', 8)
+('loop_6 done', 7)
+('loop_1 done', 22, 2)
+('loop_1 done', 22, 10)
+('loop_1 done', 22, 3)
+('loop_1 done', 22, 0)
+('loop_1 done', 22, 1)
+('loop_1 done', 22, 11)
+('loop_1 done', 22, 9)
+('loop_1 done', 22, 8)
+('loop_1 done', 22, 5)
+('loop_1 done', 22, 6)
+('loop_1 done', 22, 4)
+('loop_1 done', 22, 7)
+10 checking 44.519999999999996
+10 checking 44.519999999999996
+10 checking 44.519999999999996
+10 checking 44.519999999999996
+10 checking 44.519999999999996
+10 checking 44.519999999999996
+10 checking 44.519999999999996
+10 checking 44.519999999999996
+10 checking 44.519999999999996
+10 checking 44.519999999999996
+10 checking 44.519999999999996
+10 checking 44.519999999999996
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+('loop_6 done', 4)
+('loop_6 done', 10)
+('loop_6 done', 2)
+('loop_6 done', 1)
+('loop_6 done', 5)
+('loop_6 done', 6)
+('loop_6 done', 8)
+('loop_6 done', 9)
+('loop_6 done', 0)
+('loop_6 done', 3)
+('loop_6 done', 7)
+('loop_6 done', 11)
+('loop_1 done', 23, 2)
+('loop_1 done', 23, 0)
+('loop_1 done', 23, 10)
+('loop_1 done', 23, 3)
+('loop_1 done', 23, 1)
+('loop_1 done', 23, 11)
+('loop_1 done', 23, 9)
+('loop_1 done', 23, 8)
+('loop_1 done', 23, 4)
+('loop_1 done', 23, 5)
+('loop_1 done', 23, 6)
+('loop_1 done', 23, 7)
+10 checking 44.519999999999996
+10 checking 44.519999999999996
+10 checking 44.519999999999996
+10 checking 44.519999999999996
+10 checking 44.519999999999996
+10 checking 44.519999999999996
+10 checking 44.519999999999996
+10 checking 44.519999999999996
+10 checking 44.519999999999996
+10 checking 44.519999999999996
+10 checking 44.519999999999996
+10 checking 44.519999999999996
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+('loop_6 done', 5)
+('loop_6 done', 1)
+('loop_6 done', 7)
+('loop_6 done', 8)
+('loop_6 done', 3)
+('loop_6 done', 2)
+('loop_6 done('loop_6 done', 6)
+('loop_6 done', 11)
+', 4)
+('loop_6 done', 9)
+('loop_6 done', 10)
+('loop_6 done', 0)
+('loop_1 done', 24, 3)
+('loop_1 done', 24, 2)
+('loop_1 done', 24, 0)
+('loop_1 done', 24, 1)
+('loop_1 done', 24, 11)
+('loop_1 done', 24, 10)
+('loop_1 done', 24, 9)
+('loop_1 done', 24, 8)
+('loop_1 done', 24, 4)
+('loop_1 done', 24, 6)
+('loop_1 done', 24, 5)
+('loop_1 done', 24, 7)
+10 checking 44.519999999999996
+10 checking 44.519999999999996
+10 checking 44.519999999999996
+10 checking 44.519999999999996
+10 checking 44.519999999999996
+10 checking 44.519999999999996
+10 checking 44.519999999999996
+10 checking 44.519999999999996
+10 checking 10 checking 44.519999999999996
+10 checking 44.51999999999999644.519999999999996
+
+10 checking 44.519999999999996
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+7 checking 51.09
+('loop_6 done', 1)
+('loop_6 done', 7)
+('loop_6 d('loop_6 donone', 2)
+e', 0)
+('loop_6 done', 9)
+('loop_6 done', 3)
+('loop_6 done', 6)
+('loop_6 done', 11)
+('loop_6 done', 8)
+('loop_6 done', 5)
+('loop_6 done', 10)
+('loop_6 done', 4)
