@@ -1,0 +1,19 @@
+Qubit in super-position state, increases sample space\cite{wang2005hybrid} \\
+Hadamard gate
+\begin{lstlisting}
+r2=math.sqrt(2.0)
+h=np.array([[1/r2, 1/r2],[1/r2,-1/r2]])
+\end{lstlisting}
+Rotation Q-gate
+\begin{lstlisting}
+rot1=float(math.cos(theta));rot2=-float(math.sin(theta));
+rot3=float(math.sin(theta));rot4=float(math.cos(theta));
+\end{lstlisting}	
+Quantum Population Vector
+\begin{lstlisting}
+# alpha squared
+self.qpv[i,j,0]=np.around(2*pow(AlphaBeta[0],2),2)
+# beta squared
+self.qpv[i,j,1]=1-self.qpv[i,j,0]
+\end{lstlisting}
+Quantum Measure

@@ -1,0 +1,142 @@
+\documentclass[a4paper,oneside,12pt]{book}
+%----------------------------------------------------------------------------------------
+%	WELCOME!
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+
+\newcommand{\thesistitle}{Neural Network Optimization using Parallel Computing} 
+\newcommand{\degree}{M.Sc. (High-Performance Computing)} 
+\newcommand{\typeofthesis}{Master's Degree Project} 
+\newcommand{\authorname}{Saumya Bhatnagar} 
+\newcommand{\authorid}{16338296}
+\newcommand{\keywords}{HPC, Neural Networks, Genetic Algorithm} % Keywords for your thesis
+\newcommand{\school}{\href{https://www.maths.tcd.ie/}{School of Mathematics}} 
+
+
+\AtBeginDocument{
+\hypersetup{pdftitle=\thesistitle} % Set the PDF's title to your title
+\hypersetup{pdfauthor=\authorname} % Set the PDF's author to your name
+\hypersetup{pdfkeywords=\keywords} % Set the PDF's keywords to your keywords
+\hypersetup{pdfsubject=\degree} % Set the PDF's keywords to your keywords
+}
+
+%% Language and font encodings
+\usepackage[T1]{fontenc} 
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{longtable,lscape}
+%% Bibliographical stuff
+\usepackage[round,sort,comma,numbers]{natbib}
+
+%% Document size
+% include showframe as an option if you want to see the boxes
+\usepackage[a4paper,top=2.54cm,bottom=2.54cm,left=2.54cm,right=2.54cm,headheight=16pt]{geometry}
+
+%% Useful packages
+\usepackage{amsmath}
+\usepackage[autostyle=true]{csquotes} % Required to generate language-dependent quotes in the bibliography
+\usepackage[pdftex]{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=black]{hyperref}
+\usepackage{caption} % if no caption, no colon
+\usepackage{sfmath} %use sans-serif in the maths sections too
+\usepackage[parfill]{parskip}    % Begin paragraphs with an empty line rather than an indent
+\usepackage{setspace} % to permit one-and-a-half or double spacing
+\usepackage{enumerate} % fancy enumerations like (i) (ii) or (a) (b) and suchlike
+\usepackage{booktabs} % To thicken table lines
+\usepackage{fancyhdr}
+
+\pagestyle{plain} % Embrace simplicity!
+
+
+%\pagestyle{fancy}
+%\fancyhf{} % sets both header and footer to nothing
+%\renewcommand{\headrulewidth}{0pt}
+%\cfoot{\thepage}
+%\ifdefined\authorid
+%\chead{\it \authorname\ (\authorid)}
+%\else
+%\chead{\it \authorname}
+%\fi
+%% End of block
+
+\renewcommand{\familydefault}{\sfdefault} %use the sans-serif font as default
+
+
+\renewcommand{\theequation}{\arabic{equation}} %% use continuous equation numbers
+
+%% Format Chapter headings appropriately
+\usepackage{titlesec}
+\titleformat{\chapter}[hang] 
+{\normalfont\huge\bfseries}{\thechapter}{1cm}{} 
+
+\title{\thesistitle}
+\author{\authorname}
+
+\frontmatter
+\begin{document}
+\input{title/title.tex}
+\pagenumbering{roman}
+\section*{\Huge{Declaration}}
+\vspace{1cm}
+I hereby declare that this project is entirely my own work and that it has not been submitted as an exercise for a degree at this or any other university.
+
+\vspace{1cm}
+I have read and I understand the plagiarism provisions in the General Regulations of the University Calendar for the current year, found at \url{http://www.tcd.ie/calendar}.
+\vspace{1cm}
+
+I have also completed the Online Tutorial on avoiding plagiarism `Ready Steady Write', located at
+\url{http://tcd-ie.libguides.com/plagiarism/ready-steady-write}.
+\vspace{3cm}
+
+Signed:~\rule{5cm}{0.3pt}\hfill Date:~\rule{5cm}{0.3pt}
+
+\chapter*{Abstract}
+The rising importance of Artificial Intelligence and Machine Learning has demanded data scientists and researchers to discover new age computer systems that are capable of self-learning, reduce human effort and achieve high accuracy while performing tasks. The development of Artificial Neural Networks; a biologically inspired computing system, has emerged as one of the most effective solution to achieve this. The challenge, however, is optimizing Artificial Neural Networks to achieve high accuracy and speed. Given the vast selection of configuration variables (aka hyper-parameters), optimizing Neural Networks becomes a challenging and complex task. Various solutions to automate this task have since emerged. This thesis seeks to explore and compare the effectiveness of various methods that automate the Neural Networks optimizing process. An in-depth comparison between Genetic Algorithm, Parallel Genetic Algorithm and Quantum inspired Genetic Algorithm to optimize Neural Networks to achieve high accuracy and speed in processing Cifar-10 dataset has been presented in this thesis.
+
+
+\newpage
+\onehalfspacing\raggedright %\raggedright turns off justification and hypenation
+
+\section*{\Huge{Acknowledgements}}
+
+I would like to express my deepest appreciation to all those who provided me the possibility to complete this thesis. To begin, I would like to thank my dissertation supervisor, Dr. Darach Golden for his continual help, guidance and enthusiasm throughout the course of this research. It was through his supervision that I developed deep curiosity to dwell deeper into understanding Neural Networks and research effective new ways to optimize them. I would also like to thank my parents who taught me to strive for nothing short of ‘excellence’. This has been a period of intense learning, both academically and personally. Your contributions were invaluable. 
+
+
+\tableofcontents
+\listoffigures
+%\listoftables
+\newpage
+%\section*{\Huge{Nomenclature}}
+%\begin{tabular}{lp{9cm}l}
+%A&Area of the wing&$m^{2}$\\
+%B\\
+%C& Roman letters first, with capitals\ldots\\
+%a&then lower case.\\
+%b\\
+%c\\
+%$\Gamma$&Followed by Greek capitals\ldots\\
+%$\alpha$&then lower case greek symbols.\\
+%$\beta$\\
+%$\epsilon$\\
+%TLA&Finally, three letter acronyms and other abbreviations arranged alphabetically\\
+%\end{tabular}
+%\vspace{2cm}
+
+
+\mainmatter
+\input{introduction/introduction.tex}
+%\input{background/background.tex}
+%\input{project/project.tex}
+%\input{evaluation/evaluation.tex}
+%\input{conclusion/conclusion.tex}
+\bibliographystyle{unsrtnat}
+\bibliography{bibs/sample}
+%\appendix
+%\renewcommand{\thechapter}{A\arabic{chapter}}
+%\input{appendix/appendix.tex}
+
+
+\end{document}

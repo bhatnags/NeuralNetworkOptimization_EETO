@@ -1,0 +1,50 @@
+\babel@toc {english}{}
+\contentsline {chapter}{\numberline {1}INTRODUCTION}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Motivation}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Research Question}{2}{section.1.2}
+\contentsline {section}{\numberline {1.3}Research Objectives}{3}{section.1.3}
+\contentsline {section}{\numberline {1.4}Theory}{4}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Aspects of Neural Network}{4}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}Survival of the fittest}{7}{subsection.1.4.2}
+\contentsline {subsection}{\numberline {1.4.3}Quantum Computation}{9}{subsection.1.4.3}
+\contentsline {section}{\numberline {1.5}Overview}{9}{section.1.5}
+\contentsline {chapter}{\numberline {2}STATE OF THE ART}{11}{chapter.2}
+\contentsline {section}{\numberline {2.1}A review of Neural Networks Optimization Procedure}{11}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Types of tuning: }{11}{subsection.2.1.1}
+\contentsline {subsubsection}{Hand Tuning}{11}{subsection.2.1.1}
+\contentsline {subsubsection}{Grid Search Method}{11}{subsection.2.1.1}
+\contentsline {subsubsection}{Random Search (RS) Method}{12}{subsection.2.1.1}
+\contentsline {subsubsection}{Bayesian Optimization Method}{12}{subsection.2.1.1}
+\contentsline {subsubsection}{Gradient based optimization}{13}{subsection.2.1.1}
+\contentsline {subsubsection}{Evolution-based optimization}{13}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Evolutionary based optimization \IeC {\textendash } A perspective}{13}{subsection.2.1.2}
+\contentsline {subsubsection}{DEvol and DEAP}{13}{subsection.2.1.2}
+\contentsline {subsubsection}{TPOT}{14}{subsection.2.1.2}
+\contentsline {subsubsection}{PBT}{14}{figure.caption.11}
+\contentsline {subsection}{\numberline {2.1.3}Quantum Inspired Genetic algorithm}{16}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Overview}{16}{subsection.2.1.4}
+\contentsline {chapter}{\numberline {3}DESIGN}{17}{chapter.3}
+\contentsline {subsection}{\numberline {3.0.1}The framework}{17}{subsection.3.0.1}
+\contentsline {subsection}{\numberline {3.0.2}Software development}{20}{subsection.3.0.2}
+\contentsline {subsubsection}{Handling of SLURM workload manager}{21}{subsection.3.0.2}
+\contentsline {subsection}{\numberline {3.0.3}Leveraging Parallel Computing}{21}{subsection.3.0.3}
+\contentsline {section}{\numberline {3.1}HPC Cluster Architecture: Clusters, Installations}{24}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Development: Using Chuck Cluster}{24}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Deployment Trial 1: Using Lonsdale Cluster}{24}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Deployment Trial 2: Using Kelvin Cluster}{26}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}Deployment Trial 3: Using Boyle Cluster}{26}{subsection.3.1.4}
+\contentsline {section}{\numberline {3.2}Installation steps}{28}{section.3.2}
+\contentsline {section}{\numberline {3.3}Introduction to the code for Simulation }{28}{section.3.3}
+\contentsline {section}{\numberline {3.4}Sequential Concern}{33}{section.3.4}
+\contentsline {subsubsection}{SSE Speed Limitations}{33}{section.3.4}
+\contentsline {subsubsection}{Training Speed Constraint}{33}{section.3.4}
+\contentsline {chapter}{\numberline {4}IMPLEMENTATION AND DATA ANALYSIS}{34}{chapter.4}
+\contentsline {section}{\numberline {4.1}Genetics Inspired Exploration vs Exploitation based Optimization for Neural Network Tuning}{34}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Implementation}{34}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Analysis}{35}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}PGA Inspired Exploration vs Exploitation based Optimization for Neural Network Tuning}{37}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Implementation}{37}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Comparative Analysis}{38}{subsection.4.2.2}
+\contentsline {subsubsection}{Island Model}{39}{figure.caption.22}
+\contentsline {section}{\numberline {4.3}Quantum Genetics Inspired Genetics Inspired Exploration vs Exploitation based Optimization for Neural Network Tuning}{47}{section.4.3}
+\contentsline {chapter}{\numberline {5}Summary}{50}{chapter.5}

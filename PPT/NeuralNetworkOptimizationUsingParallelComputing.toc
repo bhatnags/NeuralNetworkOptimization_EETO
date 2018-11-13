@@ -1,0 +1,12 @@
+\beamer@sectionintoc {1}{Introduction \& Background}{2}{0}{1}
+\beamer@sectionintoc {2}{Software Development}{7}{0}{2}
+\beamer@subsectionintoc {2}{1}{Optimization Method}{9}{0}{2}
+\beamer@subsectionintoc {2}{2}{Parallel Computation}{10}{0}{2}
+\beamer@subsectionintoc {2}{3}{Implementation}{13}{0}{2}
+\beamer@subsectionintoc {2}{4}{Optimization Method - Quantum Inspired}{15}{0}{2}
+\beamer@sectionintoc {3}{Analysis \& Conclusions}{16}{0}{3}
+\beamer@subsectionintoc {3}{1}{Sequential Algorithm Analysis}{17}{0}{3}
+\beamer@subsectionintoc {3}{2}{Sequential Algorithm vs Parallel Algorithm}{19}{0}{3}
+\beamer@subsectionintoc {3}{3}{Parallel Algorithm - Island Model}{23}{0}{3}
+\beamer@subsectionintoc {3}{4}{Efficiency \& Speedups}{24}{0}{3}
+\beamer@subsectionintoc {3}{5}{Quantum Inspired Algorithm}{27}{0}{3}

@@ -1,0 +1,468 @@
+
+\documentclass[10pt, a4paper, xcolor=dvipsnames]{beamer}
+
+\usepackage{amsthm, graphicx}
+%\usetheme{Berkeley}
+\usetheme{Berlin}
+\usefonttheme[onlylarge]{structuresmallcapsserif}
+\usefonttheme[onlysmall]{structurebold}
+
+
+
+\title[Neural Network Optimization]
+{Neural Network Optimization Using Parallel Computing}
+\subtitle{Project for Master's Degree in HPC}
+\author{Saumya Bhatnagar}
+\date{October 2, 2018}
+\institute{Trinity College Dublin}
+
+%\setlength{\unitlength}{1cm}
+%\thicklines
+
+\newcommand{\bs}{\textbackslash}
+
+
+\usepackage{tikz}
+\usetikzlibrary{tikzmark}
+
+\newcounter{tmp}
+\newcommand<>\Highlight[1]{%
+	\stepcounter{tmp}%
+	\only#2{\begin{tikzpicture}[remember picture,overlay]
+		\fill[green!60!black,opacity=0.5] 
+		([xshift=-.2em,yshift=2ex]pic cs:start-\thetmp)
+		rectangle  
+		([xshift=.2em,yshift=-1ex]pic cs:end-\thetmp);
+		\end{tikzpicture}}%
+	\tikzmark{start-\thetmp}#1\hfill\tikzmark{end-\thetmp}%
+}
+
+%\usepackage{biblatex}
+%\setbeamertemplate{bibliography item}[text]
+%\bibliographystyle{unsrtnat}
+
+\usepackage[round,sort,comma,numbers]{natbib}
+\usepackage[autostyle=true]{csquotes} % Required to generate language-dependent quotes in the bibliography
+
+
+
+\usepackage{listings}
+%\usepackage{minted}
+
+
+\usepackage{smartdiagram}
+\usetikzlibrary{shapes.geometric,calc}
+\tikzset{
+	planet/.append style={regular polygon, regular polygon sides=6},
+	satellite/.append style={regular polygon, regular polygon sides=6},
+	every picture/.append style={rotate=30},
+	connection planet satellite/.style={
+		bend right/.style=,
+		every edge/.style={fill=\col},
+		to path={
+			\pgfextra
+			\path[draw=none, fill=none] (\tikztostart) 
+			-- coordinate[at start] (@start@) coordinate[at end] (@target@) (\tikztotarget);
+			\endpgfextra
+			\ifnum\xi<\maxsmitem % to disable the last arrow
+			($(@start@)!.6cm!90:(@target@)$) -- ($(@target@)!.25cm!-90:(@start@)$)
+			-- ($(@target@)!.25cm!90:(@start@)$) -- ($(@start@)!.6cm!-90:(@target@)$)
+			-- cycle
+			\fi}
+
+			}
+	}
+
+\usepackage{smartdiagram}
+
+
+\usetikzlibrary{positioning}
+
+
+\begin{document}
+
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+\section{Introduction \& Background}
+\begin{frame}
+%\frametitle{Essence of The Thesis}
+\begin{itemize}
+	\item<1-> Fourth Industrial Revolution \& Evolution of Machine Learning
+	\item<2-> End of Moore's law and Quantum Mechanics\cite{MooreLaw}
+	\item<3-> Evolution of HPC \cite{hennessy2011computer}
+	\item<4-> Trends of HPC \cite{hennessy2011computer}
+\end{itemize}
+\hfill
+\only<1>{
+\begin{center}
+	\resizebox{0.8\textwidth}{!}{
+	\smartdiagramset{border color=none,
+	back arrow disabled=true}
+	\smartdiagram[flow diagram:horizontal]{
+		\textbf{1950-Turing Test},
+		1952- Self Game of Checkers,
+		\textbf{1957-First Neural Network},
+		1979-Mobile Robot,
+		1985-Speech Recognition,
+		\textbf{2006-DeepLearning}}}
+\end{center}
+}
+
+\only<2> {\includegraphics[width=0.9\linewidth,height=5cm]{images/1_3.png}}
+\only<3> {\includegraphics[width=0.8\linewidth,height=5cm]{images/1_4.jpg}}
+\only<4> {\includegraphics[width=0.8\linewidth,height=5cm]{images/1_5.jpg}}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Table of Contents}
+\tableofcontents
+\end{frame}
+
+\section{Software Development}
+\begin{frame}
+%\frametitle{In This Thesis}
+	\begin{minipage}{0.4\textwidth}
+		\begin{enumerate}
+			\item Compared accuracy of Neural Nets
+			\item Single Population Fine Grained Algorithms
+			\item Multiple-population Coarse Grained Algorithms\cite{cantu1998survey}
+			\item Sequential Time Consumption
+			\item Mpi4py, Keras, Tensorflow
+			\item Analyzed TCHPC Clusters
+			\item Memory Leak
+		\end{enumerate}
+	\end{minipage}
+	\begin{minipage}{0.5\textwidth}
+		\begin{centering}
+			\resizebox{1\textwidth}{!}{
+				\smartdiagram[connected constellation diagram]{
+					Neural Network Optimization,
+					Inspired by Genetic Algorithm,
+					Quantum Mechanics,
+					Parallel Computation,
+					Python HPC,
+					TCHPC Cluster,
+					Cluster Nodes Comparison
+				}
+			}
+		\end{centering}
+	\end{minipage}
+\end{frame}
+
+\begin{frame}
+%\frametitle{In This Thesis}
+	\begin{itemize}
+		\item To access best set of hyper-parameters 
+		\item Convolutional Neural Network
+		\item Image Processing
+		\item Machine Learning Benchmark : CIFAR10
+		\item Initiate with randomly selected combination of hyper-parameters
+		\item Sample space kept same with every selection
+		\item MPI parallelism
+		\item Scheduling, Re-Scheduling by resuming the code based on Node availability using Slurm Workload Manager
+		\item Keras has built-in support for multi-GPU data parallelism
+		\item Boyle Cluster: ldd (GNU libc) 2.17
+	\end{itemize} 
+\end{frame}
+
+\subsection{Optimization Method}
+\begin{frame}
+	\begin{minipage}{0.65\textwidth}
+		\includegraphics[width=0.9\linewidth]{images/fig3b.png}
+	\end{minipage}
+	\begin{minipage}{0.25\textwidth}
+		\begin{itemize}
+			\item Inspired by GA \cite{hopfield1985neural}
+			\item To crossbreed networks
+			\item Relative accuracy of hyper-parameters set is analyzed
+		\end{itemize}
+	\end{minipage}
+\end{frame}
+
+
+
+
+\subsection{Parallel Computation}
+
+\begin{frame}
+%	\begin{minipage}{0.65\textwidth}
+		\begin{center}
+			\begin{tabular}{ c c c }
+				Dataset & Data-points & Sequential Time (per generation) \\
+				CIFAR10 & 10k & 15 minutes \\  
+				80M Tiny Images & 80M & 20k minutes    
+			\end{tabular}
+		\end{center}
+%	\end{minipage}
+	Number of Processors\textless 32 =\textgreater Implemented Course Grained Parallelism \cite{li2007efficient}
+	\newline
+	\begin{minipage}{0.6\textwidth}
+
+		Two Parallel Implementations of GA
+		\begin{enumerate}
+			\item<1-> \textbf{Single Population Fine Grained Algorithms} : using 4, 6, 8, 10, 12 processors
+			\item<2-> \textbf{Multiple-population Coarse Grained Algorithms} : with inter-island(every 5 generations) and intra-island breeding
+			\begin{itemize}
+				\item<2-> population size of 4 in each island, using 12 processors
+			\end{itemize}
+		\end{enumerate}
+	\end{minipage}
+	\begin{minipage}{0.3\textwidth}
+		\only<1> {\resizebox{\textwidth}{!}{\smartdiagram[circular diagram:clockwise]{1,2,3}}}
+		\only<2> {\resizebox{\textwidth}{!}{
+			\smartdiagram[circular diagram:clockwise]{	
+				\resizebox{\textwidth}{!}{\smartdiagram[circular diagram:clockwise]{1,1,1}},
+				\resizebox{\textwidth}{!}{\smartdiagram[circular diagram:clockwise]{2,2,2}},
+				\resizebox{\textwidth}{!}{\smartdiagram[circular diagram:clockwise]{3, , }}
+			}}}
+	\end{minipage}
+\end{frame}
+
+\begin{frame}
+\begin{columns}
+	\begin{column}{0.68\textwidth}
+		\includegraphics[width=0.85\linewidth]{images/fig3d.png}
+	\end{column}
+	\begin{column}{0.38\textwidth}
+		\textbf{Single Population Fine Grained Algorithms} \\ 
+		Send/Recv Model \\  
+		One Network Per Node \\
+		Inter-Network Crossover \newline \newline
+		\textbf{Multiple-population Coarse Grained Algorithms} \\ 
+		MPI Communicators \\  
+		One Communicator Per Island \\
+		Inter-Island \& Intra-Island Crossover
+	\end{column}
+\end{columns}
+\end{frame}
+
+\subsection{Implementation}
+\begin{frame}[fragile]
+	\textbf{MPI Initialization Testing}
+	\begin{lstlisting}
+MPI.Init()
+print(MPI.Is_initialized())
+print(MPI.Is_finalized())	
+	\end{lstlisting}
+	\textbf{Non-Blocking Exchange}
+	\begin{lstlisting}
+def nonBlockingExchange(self,data):
+   reqSend1 = self.comm.isend(data,
+  	  dest=((self.size+self.rank+1)\%self.size), 
+ 	  tag=self.rank)
+   reqRecv2 = self.comm.irecv(source=
+  	  ((self.size+self.rank-1)\%self.size), 
+ 	  tag=self.rank-1)
+   dataPrev = reqRecv2.wait()
+   reqSend1.wait()
+   return dataPrev	
+	\end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]
+	\textbf{MPI Gather}
+	\begin{lstlisting}
+recvdata = self.comm.Gather(data, root = 0)
+	\end{lstlisting}
+	\textbf{MPI Broadcast}
+	\begin{lstlisting}
+data = self.comm.bcast(data, root = 0)	
+	\end{lstlisting}
+	\textbf{Get Island}
+	\begin{lstlisting}
+self.subGroup = self.rank // groupSize
+self.subComm = MPI.Comm.Split(
+	self.comm, self.subGroup, self.rank)
+	\end{lstlisting}
+	\textbf{Get Island Details}
+	\begin{lstlisting}
+self.subSize, self.subRank = 
+	self.subComm.Get_size(), self.subComm.Get_rank()
+	\end{lstlisting}
+\end{frame}
+
+
+\subsection{Optimization Method - Quantum Inspired}
+\begin{frame}[fragile]
+Qubit in super-position state, increases sample space\cite{wang2005hybrid} \\
+Hadamard gate
+\begin{lstlisting}
+r2=math.sqrt(2.0)           
+h=np.array([[1/r2, 1/r2],[1/r2,-1/r2]])
+\end{lstlisting}
+Rotation Q-gate
+\begin{lstlisting}
+rot1=float(math.cos(theta));rot2=-float(math.sin(theta));
+rot3=float(math.sin(theta));rot4=float(math.cos(theta));
+\end{lstlisting}	
+Quantum Population Vector
+\begin{lstlisting}
+# alpha squared
+self.qpv[i,j,0]=np.around(2*pow(AlphaBeta[0],2),2) 
+# beta squared
+self.qpv[i,j,1]=1-self.qpv[i,j,0]
+\end{lstlisting}
+Quantum Measure
+\end{frame}
+
+
+
+\section{Analysis \& Conclusions}
+\begin{frame}
+	\begin{itemize}
+		\item 	Search space consists of 5 hyper-parameters: activation functions, optimizers, hidden layers, nodes and dropout \cite{goodfellow2016deep}
+		\item Six activation functions included are: sigmoid, elu, selu, relu, tanh, hard\_sigmoid
+		 \item Six Optimizers include sgd, adagrad, adadelta, adam, adamax, nadam. 
+		\item Hidden layers range from 1-15. 
+		\item Nodes/neurons range from 4-128.
+		\item Dropouts range from 0.1 to 0.5.
+	\end{itemize}
+\end{frame}
+
+
+\subsection{Sequential Algorithm Analysis}
+\begin{frame}
+\frametitle{Samples tested}
+\begin{columns}
+	\begin{column}{0.48\textwidth}
+		\includegraphics[width=0.9\linewidth]{../ResultAnalysis/optimizerVSActivation.jpg}
+	\end{column}
+	\begin{column}{0.58\textwidth}
+		\begin{itemize}
+			\item Activation functions: hard\_sigmoid and elu couldn't come in any set of combinations with the optimizer - adagrad
+			\item Uneven Testing: some combinations have been tested more frequently \\
+		\end{itemize}
+	\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Samples tested}
+\begin{columns}
+	\begin{column}{0.54\textwidth}
+		\includegraphics[width=\linewidth]{../ResultAnalysis/optimizerVSActivation.jpg}		\includegraphics[width=\linewidth]{../ResultAnalysis/neuronsVSlayers.jpg}
+	\end{column}
+	\begin{column}{0.54\textwidth}
+		\begin{itemize}
+			\item Activation functions: hard\_sigmoid and elu couldn't come in any set of combinations with the optimizer - adagrad
+			\item Uneven Testing: some combinations have been tested more frequently \\
+			\item Increasing the number of networks, increased the possible combinations
+			\item Higher neurons and lower layers factored in high accuracies
+		\end{itemize}
+	\end{column}
+\end{columns}
+\end{frame}
+
+\subsection{Sequential Algorithm vs Parallel Algorithm}
+\begin{frame}
+\frametitle{Fitness Comparison}
+\begin{columns}
+		\includegraphics[width=1.1\linewidth]{../ResultAnalysis/FitnessComparison_1.jpg}
+\end{columns}
+The convergence of parallel implementations is better than that of sequential implementation.
+\end{frame}
+
+\begin{frame}
+\begin{columns}
+	\includegraphics[width=1.2\linewidth]{../ResultAnalysis/FitnessComparison_2.jpg}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Time Comparison}
+\begin{columns}
+	\begin{column}{\textwidth}
+		\includegraphics[width=\linewidth]{../ResultAnalysis/TimeComparison_1.jpg}
+	\end{column}
+\end{columns}
+\begin{itemize}
+	\item The time taken by sequential code increases with generations.
+	\item Time taken by Sequential code is in hours while the same can be done in minutes using MPI parallelism
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\begin{columns}
+	\begin{column}{1.1\textwidth}
+		\includegraphics[width=\linewidth]{../ResultAnalysis/TimeComparison_2.jpg}
+	\end{column}
+\end{columns}
+\end{frame}
+
+\subsection{Parallel Algorithm - Island Model}
+\begin{frame}
+\frametitle{Multiple-population Coarse Grained Algorithms}
+\begin{columns}
+	\begin{column}{0.9\textwidth}
+		\includegraphics[width=\linewidth]{../ResultAnalysis/TimeLapseIsland.pdf}
+	\end{column}
+	\begin{column}{0.2\textwidth}
+		The Island model showed speed-up
+	\end{column}
+\end{columns}
+\end{frame}
+
+\subsection{Efficiency \& Speedups}
+\begin{frame}
+\frametitle{Super-linear behavior}
+\begin{columns}
+	\begin{column}{0.9\textwidth}
+			\includegraphics[width=\linewidth]{../ResultAnalysis/Speedup_Efficiency.pdf}
+	\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Super-linear behavior \& Memory leak}
+\begin{columns}
+	\begin{column}{0.48\textwidth}
+		\includegraphics[width=\linewidth]{../ResultAnalysis/Speedup_Efficiency.pdf}
+		Super-linear speedup
+	\end{column}
+	\begin{column}{0.58\textwidth}
+		\includegraphics[width=\linewidth]{../ResultAnalysis/MemoryLeak.pdf}
+	\end{column}
+\end{columns}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Memory Leak}
+\begin{columns}
+	\begin{column}{1.1\textwidth}
+		\includegraphics[width=\textwidth]{../ResultAnalysis/MemoryLeak.jpg}
+	\end{column}
+\end{columns}
+	Approx 100MB memory leak in 5 generations
+\end{frame}
+
+
+
+
+\subsection{Quantum Inspired Algorithm}
+\frametitle{Parallel vs Quantum Inspired}
+\begin{frame}
+	\includegraphics[height=\textheight]{../ResultAnalysis/QEETO/OverallComparison.pdf}
+\end{frame}
+
+\begin{frame}
+	\includegraphics[height=\textheight]{../ResultAnalysis/QEETO/Fitness.pdf}
+\end{frame}
+
+
+%\section{References}
+\begin{frame}[allowframebreaks]
+\frametitle{References}
+%\scriptsize{\bibliographystyle{acm}}
+\bibliographystyle{unsrtnat}
+\bibliography{bibs/sample}
+\end{frame}
+
+
+
+\end{document}
+

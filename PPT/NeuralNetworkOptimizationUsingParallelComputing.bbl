@@ -1,0 +1,51 @@
+\begin{thebibliography}{7}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Theis and Wong(2017)]{MooreLaw}
+Thomas~N Theis and H-S~Philip Wong.
+\newblock The end of moore's law: A new beginning for information technology.
+\newblock \emph{Computing in Science \& Engineering}, 19\penalty0 (2):\penalty0
+  41--50, 2017.
+
+\bibitem[Hennessy and Patterson(2011)]{hennessy2011computer}
+John~L Hennessy and David~A Patterson.
+\newblock \emph{Computer architecture: a quantitative approach}.
+\newblock Elsevier, 2011.
+
+\bibitem[Cant{\'u}-Paz(1998)]{cantu1998survey}
+Erick Cant{\'u}-Paz.
+\newblock A survey of parallel genetic algorithms.
+\newblock \emph{Calculateurs paralleles, reseaux et systems repartis},
+  10\penalty0 (2):\penalty0 141--171, 1998.
+
+\bibitem[Hopfield and Tank(1985)]{hopfield1985neural}
+John~J Hopfield and David~W Tank.
+\newblock “neural” computation of decisions in optimization problems.
+\newblock \emph{Biological cybernetics}, 52\penalty0 (3):\penalty0 141--152,
+  1985.
+
+\bibitem[Wang et~al.(2005)Wang, Tang, and Wu]{wang2005hybrid}
+Ling Wang, Fang Tang, and Hao Wu.
+\newblock Hybrid genetic algorithm based on quantum computing for numerical
+  optimization and parameter estimation.
+\newblock \emph{Applied Mathematics and Computation}, 171\penalty0
+  (2):\penalty0 1141--1156, 2005.
+
+\bibitem[Li et~al.(2007)Li, Wang, He, and Chi]{li2007efficient}
+Jian-Ming Li, Xiao-Jing Wang, Rong-Sheng He, and Zhong-Xian Chi.
+\newblock An efficient fine-grained parallel genetic algorithm based on
+  gpu-accelerated.
+\newblock In \emph{Network and parallel computing workshops, 2007. NPC
+  workshops. IFIP international conference on}, pages 855--862. IEEE, 2007.
+
+\bibitem[Goodfellow et~al.(2016)Goodfellow, Bengio, Courville, and
+  Bengio]{goodfellow2016deep}
+Ian Goodfellow, Yoshua Bengio, Aaron Courville, and Yoshua Bengio.
+\newblock \emph{Deep learning}, volume~1.
+\newblock MIT press Cambridge, 2016.
+
+\end{thebibliography}

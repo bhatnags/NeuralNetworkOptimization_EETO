@@ -1,0 +1,36 @@
+\BOOKMARK [0][-]{chapter.1}{INTRODUCTION}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Motivation}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Research Question}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.3}{Research Objectives}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.4}{Theory}{chapter.1}% 5
+\BOOKMARK [2][-]{subsection.1.4.1}{Aspects of Neural Network}{section.1.4}% 6
+\BOOKMARK [2][-]{subsection.1.4.2}{Survival of the fittest}{section.1.4}% 7
+\BOOKMARK [2][-]{subsection.1.4.3}{Quantum Computation}{section.1.4}% 8
+\BOOKMARK [1][-]{section.1.5}{Overview}{chapter.1}% 9
+\BOOKMARK [0][-]{chapter.2}{STATE OF THE ART}{}% 10
+\BOOKMARK [1][-]{section.2.1}{A review of Neural Networks Optimization Procedure}{chapter.2}% 11
+\BOOKMARK [2][-]{subsection.2.1.1}{Types of tuning: }{section.2.1}% 12
+\BOOKMARK [2][-]{subsection.2.1.2}{Evolutionary based optimization \205 A perspective}{section.2.1}% 13
+\BOOKMARK [2][-]{subsection.2.1.3}{Quantum Inspired Genetic algorithm}{section.2.1}% 14
+\BOOKMARK [2][-]{subsection.2.1.4}{Overview}{section.2.1}% 15
+\BOOKMARK [0][-]{chapter.3}{DESIGN}{}% 16
+\BOOKMARK [1][-]{subsection.3.0.1}{The framework}{chapter.3}% 17
+\BOOKMARK [2][-]{subsection.3.0.2}{Software development}{subsection.3.0.1}% 18
+\BOOKMARK [2][-]{subsection.3.0.3}{Leveraging Parallel Computing}{subsection.3.0.1}% 19
+\BOOKMARK [1][-]{section.3.1}{HPC Cluster Architecture: Clusters, Installations}{chapter.3}% 20
+\BOOKMARK [2][-]{subsection.3.1.1}{Development: Using Chuck Cluster}{section.3.1}% 21
+\BOOKMARK [2][-]{subsection.3.1.2}{Deployment Trial 1: Using Lonsdale Cluster}{section.3.1}% 22
+\BOOKMARK [2][-]{subsection.3.1.3}{Deployment Trial 2: Using Kelvin Cluster}{section.3.1}% 23
+\BOOKMARK [2][-]{subsection.3.1.4}{Deployment Trial 3: Using Boyle Cluster}{section.3.1}% 24
+\BOOKMARK [1][-]{section.3.2}{Installation steps}{chapter.3}% 25
+\BOOKMARK [1][-]{section.3.3}{Introduction to the code for Simulation }{chapter.3}% 26
+\BOOKMARK [1][-]{section.3.4}{Sequential Concern}{chapter.3}% 27
+\BOOKMARK [0][-]{chapter.4}{IMPLEMENTATION AND DATA ANALYSIS}{}% 28
+\BOOKMARK [1][-]{section.4.1}{Genetics Inspired Exploration vs Exploitation based Optimization for Neural Network Tuning}{chapter.4}% 29
+\BOOKMARK [2][-]{subsection.4.1.1}{Implementation}{section.4.1}% 30
+\BOOKMARK [2][-]{subsection.4.1.2}{Analysis}{section.4.1}% 31
+\BOOKMARK [1][-]{section.4.2}{PGA Inspired Exploration vs Exploitation based Optimization for Neural Network Tuning}{chapter.4}% 32
+\BOOKMARK [2][-]{subsection.4.2.1}{Implementation}{section.4.2}% 33
+\BOOKMARK [2][-]{subsection.4.2.2}{Comparative Analysis}{section.4.2}% 34
+\BOOKMARK [1][-]{section.4.3}{Quantum Genetics Inspired Genetics Inspired Exploration vs Exploitation based Optimization for Neural Network Tuning}{chapter.4}% 35
+\BOOKMARK [0][-]{chapter.5}{Summary}{}% 36
